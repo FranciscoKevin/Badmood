@@ -1,0 +1,60 @@
+/*ECRAN MOBILE*/
+@media screen and (max-width: 961px){
+
+
+    header{
+      background-color: gray;
+      height: 150px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    h1{
+      padding-right: 10px;
+    }
+
+
+/*MENU SANDWICH*/
+    .menu-deroulant {
+      display: none;
+      position: absolute;
+      background-color: gray;
+      min-width: 90px;
+      margin-top: 60px;
+      box-shadow: 0px 8px 7px 0px rgba(0,0,0,0.2);
+    }
+
+    a {
+      color: black;
+      padding: 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    a:hover {
+    	background-color: #f9f9f9;
+    }
+    .visible {
+      display: block;
+    }
+
+    .bouton-menu
+    {
+    	width: 50px; 
+    	height: 50px;
+    	text-align: center;
+    	list-style: none;
+    	border: none;
+      cursor: pointer;
+      padding: 20px 10px;
+
+    }
+
+    .barre
+    {
+    	width: 40px; height: 5px;
+    	background-color: black;
+    	margin:8px auto;
+    }
+
+}

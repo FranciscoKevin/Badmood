@@ -84,6 +84,5 @@
                 <p class="wildCodeSchool">2020 - Développé par la Wild Code School. Tous droits réservés.</p>
             </div>          
         </footer>
-    </div>
 </body>
 </html>

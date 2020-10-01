@@ -8,11 +8,26 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
+<header>
+		<!---- MENU NAVIGATION ----->
+			<a href="index.html"><h1>BadMood</h1></a>
+			<nav>
+				<div class="bouton-menu">
+					<div class="barre bar1"></div>
+					<div class="barre bar2"></div>
+					<div class="barre bar3"></div>
+				</div>
+		      	<div class="menu-deroulant">
+			        <a href="#home">Home</a>
+			    	<a href="#about">About</a>
+			    	<a href="#contact">Contact</a>
+		      	</div>
+		     </nav>
+		     
+  </header>
     <main>
-        <section>
+        <section class="generalSection">
+            <img src="img/img_contact.jpg" alt="" class=backgroundImage>
             <h1>Contact</h1>
             <p>
                 Une question? <br>
@@ -41,12 +56,15 @@
                 </div>
             </form>
         </section>
-        <div>
-            <h1>Qui sommes-nous?</h1>
-            <p>
-                L'association BadMood est composée d'une dizaine de bénévoles, tous issus d'études en comportement psychologique et/ou impactés par des comportements psychologiques dans leur entourage. Notre but est de vous apporter conseil et soutien,et de vous rediriger vers les spécialistes les plus compétents en fonction de votre besoin.
-            </p>
-        </div>    
+        <section>        
+            <div>
+                <h1>Qui sommes-nous?</h1>
+                <p>
+                    L'association BadMood est composée d'une dizaine de bénévoles, tous issus d'études en comportement psychologique et/ou impactés par des comportements psychologiques dans leur entourage. Notre but est de vous apporter conseil et soutien,et de vous rediriger vers les spécialistes les plus compétents en fonction de votre besoin.
+                </p>
+        </section>    
+            </div>    
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

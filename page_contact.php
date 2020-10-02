@@ -36,45 +36,49 @@
 		     </nav>
 		     
   </header>
-    <main>
-        <section class="generalSection">
-            <img src="img/img_contact.jpg" alt="" class=backgroundImage>
-            <h1>Contact</h1>
-            <p>
-                Une question? <br>
-                Un bug sur notre site? <br>
-                N'hésitez pas à nous contacter via le formulaire suivant, nous vous répondrons dès que possible.
-            </p>
-            <form target ="_self" action="formulaire_merci.php" method="GET" class= formulaire autocomplete="on" target="self">
-                <div class="nom">
-                    <label for="nom">Votre nom</label>
-                    <input type="text" name="nom" id="nom" required>
-                </div>
-                <div class="formulaire">
-                    <label for="prenom">Votre prénom</label>
-                    <input type="text" name="prenom" id="prenom" required>
-                </div>
-                <div class="formulaire">
-                    <label for="email">Votre email</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="formulaire">
-                    <label for="message">Votre message</label>
-                    <textarea name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard"></textarea>
-                </div>
-                <div class="formulaire">
-                    <input type="submit" value="Envoyer" onclick="window.location.href = 'index.html'";>
-                </div>
-            </form>
+    <main class="mainContainer">
+        <section class="formulaireSection"> 
+          <fieldset>                    
+              <legend class=titleContact><h1>Contact</h1></legend>
+                    <p class="pTitleContact">
+                        Une question? <br>
+                        Un bug sur notre site? <br>
+                        N'hésitez pas à nous contacter via le formulaire suivant, nous vous répondrons dès que possible.
+                    </p>
+                    <form target ="_self" action="formulaire_merci.php" method="GET" class= "formulaire" autocomplete="on" target="self">
+    
+
+                        <div class="nom">
+                            <label for="nom">Votre nom</label>
+                            <input type="text" name="nom" id="nom" required>
+                        </div>
+                        <div class="formulaire">
+                            <label for="prenom">Votre prénom</label>
+                            <input type="text" name="prenom" id="prenom" required>
+                        </div>
+                        <div class="formulaire">
+                            <label for="email">Votre email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="formulaire">
+                            <label for="message">Votre message</label>
+                            <textarea name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard"></textarea>
+                        </div>
+                        <div class="formulaire">
+                            <input type="submit" value="Envoyer" onclick="window.location.href = 'index.html'";>
+                        </div>
+                        </fieldset>
+                    </form>
         </section>
-        <section>        
-            <div>
+        <section class="quiSommesNousContainer">        
+            <div class="quiSommesNous">
                 <h1>Qui sommes-nous?</h1>
                 <p>
                     L'association BadMood est composée d'une dizaine de bénévoles, tous issus d'études en comportement psychologique et/ou impactés par des comportements psychologiques dans leur entourage. Notre but est de vous apporter conseil et soutien,et de vous rediriger vers les spécialistes les plus compétents en fonction de votre besoin.
                 </p>
-        </section>    
             </div>    
+        </section>    
+
     </main>
     <script src="script.js"></script>
 </body>

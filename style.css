@@ -233,9 +233,49 @@
 
 
 /* Partie CSS spécifique à la page_contact */
-.backgroundImage {
-    background-color: white;
+
+.mainContainer {
     display: flex;
-    opacity: 0.2;
-    background-attachment: fixed;
+    flex-direction: column;
+}
+
+fieldset {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: green;
+}
+
+.formulaireSection {
+    background-image: url(img/img_contact.jpg); 
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    padding: 10px;
+}
+.formulaireContainer {
+    display: flex;
+}
+
+.titleContact {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pTitleContact {
+    margin: 0;
+    line-height: 2em;
+}
+
+.formulaire {
+    line-height: 2em;
+}
+
+.quiSommesNousContainer {
+    display: flex;
+    align-items: center;
+}
+
+.quiSommesNous {
+    margin: auto;
 }

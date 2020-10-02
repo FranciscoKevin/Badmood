@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="styles" href="enfant.css">
         <title>BadMood</title>
-    </head>
+    <head>
     <body>
         <section class="imageAdulte"> <!-- photo début page -->
             <img src="https://cdn.pixabay.com/photo/2014/07/11/15/09/unhappy-389944_960_720.jpg" alt="adulte, triste">

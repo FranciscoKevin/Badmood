@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <title>BadMood</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Useful site to find informations if you need help about mental disorders.">

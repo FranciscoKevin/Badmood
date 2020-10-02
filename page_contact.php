@@ -1,4 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+>>>>>>> 17a1a48222960c9d6e55eebe9c5e2525d79b495c
 <!DOCTYPE html>
 <html lang ="fr">
 <head>
@@ -69,6 +74,10 @@
     <script src="script.js"></script>
 </body>
 </html>
+<<<<<<< HEAD
 =======
 
 >>>>>>> d16a7fc6a5c35672edaa6f448caba7d1bae338f4
+=======
+>>>>>>> Dev
+>>>>>>> 17a1a48222960c9d6e55eebe9c5e2525d79b495c

@@ -1,41 +1,21 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-=======
->>>>>>> 17a1a48222960c9d6e55eebe9c5e2525d79b495c
-=======
-
-=======
->>>>>>> 17a1a48222960c9d6e55eebe9c5e2525d79b495c
 <!DOCTYPE html>
 <html lang ="fr">
 <head>
 	<meta charset="UTF-8">
     <title>BadMood - Page de contact</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="page_contact.css">
+    <link rel="stylesheet" href="footer.css">
+    
+    <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
 </head>
 
 <body>
-<header>
-		<!---- MENU NAVIGATION ----->
-			<a href="index.html"><h1>BadMood</h1></a>
-			<nav>
-				<div class="bouton-menu">
-					<div class="barre bar1"></div>
-					<div class="barre bar2"></div>
-					<div class="barre bar3"></div>
-				</div>
-		      	<div class="menu-deroulant">
-			        <a href="#home">Home</a>
-			    	<a href="#about">About</a>
-			    	<a href="#contact">Contact</a>
-		      	</div>
-		     </nav>
-		     
-  </header>
+    <?php include("header.php")?>
     <main class="mainContainer">
         <section class="formulaireSection"> 
           <fieldset>                    
@@ -45,27 +25,21 @@
                         Un bug sur notre site? <br>
                         N'hésitez pas à nous contacter via le formulaire suivant, nous vous répondrons dès que possible.
                     </p>
-                    <form target ="_self" action="formulaire_merci.php" method="GET" class= "formulaire" autocomplete="on" target="self">
-    
-
-                        <div class="nom">
-                            <label for="nom">Votre nom</label>
-                            <input type="text" name="nom" id="nom" required>
+                    <form target ="" action="formulaire_merci.php" method="get" class= "formulaire" autocomplete="on" target="self">
+                        <div class="formulaire">
+                        <input type="text" name="nom" id="nom" required placeholder="Votre nom">
+                    </div>
+                        <div class="formulaire">
+                            <input type="text" name="prenom" id="prenom" required placeholder="Votre prénom">
                         </div>
                         <div class="formulaire">
-                            <label for="prenom">Votre prénom</label>
-                            <input type="text" name="prenom" id="prenom" required>
+                            <input type="email" name="email" id="email" required placeholder="Votre email">
                         </div>
                         <div class="formulaire">
-                            <label for="email">Votre email</label>
-                            <input type="email" name="email" id="email" required>
+                            <textarea class="textareastyle" name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard" placeholder=" Votre message"></textarea>
                         </div>
-                        <div class="formulaire">
-                            <label for="message">Votre message</label>
-                            <textarea name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard"></textarea>
-                        </div>
-                        <div class="formulaire">
-                            <input type="submit" value="Envoyer" onclick="window.location.href = 'index.html'";>
+                        <div class="sendButton">
+                            <input type="submit" value="Envoyer">
                         </div>
                         </fieldset>
                     </form>
@@ -80,17 +54,7 @@
         </section>    
 
     </main>
-    <script src="script.js"></script>
+<?php include("footer.php")?>    
+
 </body>
 </html>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> d16a7fc6a5c35672edaa6f448caba7d1bae338f4
-=======
->>>>>>> Dev
->>>>>>> 17a1a48222960c9d6e55eebe9c5e2525d79b495c
-=======
->>>>>>> Dev
->>>>>>> 17a1a48222960c9d6e55eebe9c5e2525d79b495c

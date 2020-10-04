@@ -49,6 +49,8 @@ hr.principal{
     width: 90%;
 }
 p.footer{
+    margin: 20px;
+    text-align: start;
     height: 10px;
 }
 .wcsCopyright{
@@ -58,4 +60,7 @@ p.footer{
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+a.footerLink{
+    color: white;
 }

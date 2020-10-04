@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="urt-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>BadMood</title>
-    </head>
-    <body>
+<head>
+	<meta charset="UTF-8">
+    <title>BadMood - Page renseignements enfants</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="footer.css">
+    
+    <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
+</head>
+
+<body>
+    <?php include("header.php")?>
         <section class="imageSadChild_First">
             <img src="https://cdn.pixabay.com/photo/2013/11/28/09/51/sad-219722_960_720.jpg" alt="enfant, triste">
             <p class="mentionPhoto">Image par PublicDomainPictures de Pixabay </p>
@@ -48,5 +58,6 @@
             <img src="https://cdn.pixabay.com/photo/2017/07/07/04/09/girl-2480361_960_720.jpg" alt="mère, enfant, ensemble">
             <p class="mentionPhoto">Image par 5540867 de Pixabay</p>
         </section>
+        <?php include("footer.php")?> 
     </body>
 </html>

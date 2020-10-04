@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="urt-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <title>BadMood</title>
-    </head>
-    <body>
+<head>
+	<meta charset="UTF-8">
+    <title>BadMood - Le système de santé en France</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="footer.css">
+    
+    <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
+</head>
+
+<body>
+    <?php include("header.php")?>
         <section>
             <h1>Système de remboursement et les difféences de praticien</h1>
             <ul>
@@ -64,6 +73,6 @@
                 <a href="https://www.aide-sociale.fr/psychologue-remboursement/">source</a>
             </p>
         </main>
-
+        <?php include("footer.php")?> 
     </body>
 </html>

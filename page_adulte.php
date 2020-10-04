@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="urt-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="styles" href="enfant.css">
-        <title>BadMood</title>
-    <head>
-    <body>
+<head>
+	<meta charset="UTF-8">
+    <title>BadMood - Page renseignements adultes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="footer.css">
+    
+    <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
+</head>
+
+<body>
+    <?php include("header.php")?>
         <section class="imageAdulte"> <!-- photo début page -->
             <img src="https://cdn.pixabay.com/photo/2014/07/11/15/09/unhappy-389944_960_720.jpg" alt="adulte, triste">
             <p class="mentionPhotoAdulte">Image par PDPics de Pixabay</p>
@@ -57,5 +66,6 @@
             <img src="https://cdn.pixabay.com/photo/2017/10/10/16/33/shaman-2837843_960_720.jpg" alt="revivre">
             <p class="mentionPhotoAdulte">Image par Алина Осипова de Pixabay</p>
         </section>
+        <?php include("footer.php")?> 
     </body>
 </html>

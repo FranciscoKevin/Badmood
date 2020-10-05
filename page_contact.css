@@ -76,6 +76,9 @@ input,textarea {
         width: 100%;
         min-width: 0;
     }
+
+    .formulaireSection {
+        margin-top: 80px;    }
     
 }
 

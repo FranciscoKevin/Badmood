@@ -37,6 +37,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     height: 560px;
 
@@ -49,21 +50,42 @@ body{
     align-items: center;
     flex-direction: column;
     max-width: 1200px;
+    height: 100%;
 }
-/* Principal Cards of Home Page */
 .presentation{
-    text-align: center;
-   
-}
-.indexTitles{
+    text-align: center; 
+    height: 100%;
+    width: 100%; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.parentCard{
-    
+.mentionImgIndex{
+    height: 160px;
     width: 100%;
-    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.mentionImg{
+    color: white;
+    font-size: 10px;
+}
+/* Principal Cards of Home Page */
+
+.indexTitles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.h2Title{
+    text-align: center;
+}
+.parentCard{
+    width: 100%;
+    height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,6 +96,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     display: flex;
     width: 100%;
     height: 100%;
@@ -89,5 +112,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+.systemeLink {
+    color: black;
+}
 

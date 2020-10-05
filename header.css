@@ -20,10 +20,10 @@ nav{
 /*LOGO NAV*/
 label.logo{
   color: white;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 80px;
   font-weight: bold;
-  margin-left: 10px;
+  margin-left: 3px;
   text-transform: uppercase;
 }
 
@@ -40,18 +40,19 @@ label.logo:hover{
 /*NAVIGATION*/
 nav ul{
   float: right;
-  margin-right: 20px;
 }
 
 nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 5px;
+  padding: -10px;
 }
+
 
 nav ul li a {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   padding: 7px 15px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -82,7 +83,7 @@ a:hover{
 
 /*ECRAN MOBILE*/
 
-@media (max-width: 961px){
+@media (max-width: 996px){
     .checkbtn{
       display: block; 
     }

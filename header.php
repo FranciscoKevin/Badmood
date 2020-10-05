@@ -11,7 +11,7 @@
     <ul>
       <li><a href="page_adulte.php">Renseignements pour l'adulte</a></li>
       <li><a href="page_enfant.php">Renseignements pour l'enfant</a></li>
-      <li><a href="page_infoSysteme.php">Le système de santé en France</a></li>
-      <li><a href="page_contact.php">Nous contacter</a></li>
+      <li><a href="page_infoSysteme.php">Système de santé</a></li>
+      <li><a href="page_contact.php">Contact</a></li>
     </ul>
   </nav>

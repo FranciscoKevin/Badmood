@@ -71,7 +71,7 @@ input,textarea {
     fieldset {
         border-style: solid;
         border-radius: 8px;
-        border-color: green;
+        border-color: white;
         padding: 2px 10px;
         width: 100%;
         min-width: 0;

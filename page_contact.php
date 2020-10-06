@@ -3,7 +3,6 @@
 <head>
 	<meta charset="UTF-8">
     <title>BadMood - Page de contact</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="page_contact.css">
     <link rel="stylesheet" href="footer.css">
@@ -18,17 +17,17 @@
     <?php include("header.php")?>
     <main class="mainContainer">
         <section class="formulaireSection"> 
-          <fieldset>                    
+            <fieldset>                    
               <legend class=titleContact><h1>Contact</h1></legend>
                     <p class="pTitleContact">
                         Une question? <br>
                         Un bug sur notre site? <br>
                         N'hésitez pas à nous contacter via le formulaire suivant, nous vous répondrons dès que possible.
                     </p>
-                    <form target ="" action="formulaire_merci.php" method="GET" class= "formulaire" autocomplete="on" target="self">
+                    <form target ="_self" action="formulaire_merci.php" method="GET" class= "formulaire" autocomplete="on">
                         <div class="formulaire">
                         <input type="text" name="nom" id="nom" required placeholder="Votre nom">
-                    </div>
+                        </div>
                         <div class="formulaire">
                             <input type="text" name="prenom" id="prenom" required placeholder="Votre prénom">
                         </div>
@@ -41,8 +40,8 @@
                         <div class="sendButton">
                             <input class="button" type="submit" value="Envoyer">
                         </div>
-                        </fieldset>
                     </form>
+                </fieldset>
         </section>
         <section class="quiSommesNousContainer">        
             <div class="quiSommesNous">

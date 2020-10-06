@@ -14,18 +14,17 @@
 </head>
 <body>
     <?php include("header.php")?>
-            <section class="mainContainer">
-                <div class="messageContainer">
-                    <h1 class="message"> <?php echo $_GET['prenom']; ?>, merci pour votre message, nous y répondrons dès que possible.</h1>
-                    <br>
-                    <p>Cette fenêtre se fermera automatiquement dans quelques secondes.</p>
-                </div>
-            </section>  
+        <main>
+            <div class="messageContainer">
+                <h1 class="message"> <?php echo $_GET['prenom']; ?>, merci pour votre message, nous y répondrons dès que possible.</h1>
+                <p>Cette fenêtre se fermera automatiquement dans quelques secondes.</p>
+            </div>
+        </main>
+        <?php include("footer.php")?>    
     <script type="text/javascript">
     var delai=; // Delai en secondes
     var url='index.php'; // Url de destination
     setTimeout("document.location.replace(url)", delai + '000');
-    </script>
-    <?php include("footer.php")?>    
+    </script>  
 </body>
 </html>

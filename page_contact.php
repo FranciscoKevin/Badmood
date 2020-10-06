@@ -25,7 +25,7 @@
                         Un bug sur notre site? <br>
                         N'hésitez pas à nous contacter via le formulaire suivant, nous vous répondrons dès que possible.
                     </p>
-                    <form target ="" action="formulaire_merci.php" method="get" class= "formulaire" autocomplete="on" target="self">
+                    <form target ="" action="formulaire_merci.php" method="GET" class= "formulaire" autocomplete="on" target="self">
                         <div class="formulaire">
                         <input type="text" name="nom" id="nom" required placeholder="Votre nom">
                     </div>
@@ -39,7 +39,7 @@
                             <textarea class="textareastyle" name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard" placeholder=" Votre message"></textarea>
                         </div>
                         <div class="sendButton">
-                            <input type="submit" value="Envoyer">
+                            <input class="button" type="submit" value="Envoyer">
                         </div>
                         </fieldset>
                     </form>

@@ -93,7 +93,6 @@ a:hover{
     /*Le menu se fixe à la fenetre, il scroll de gauche a droite et sa taille prend 100% en hauteur + transition*/
     nav{
       overflow: hidden;
-      position: fixed;
       top: 0;
       width: 100%;
       z-index: 10;

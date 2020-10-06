@@ -1,8 +1,10 @@
 footer{
     background-color:  #09080D;
     width: 100%;
-    height: 640px;
+    height: 450px;
     display: flex;
+    padding-top: 60px;
+    padding-bottom: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -12,9 +14,11 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 .advertisement{
@@ -33,11 +37,10 @@ footer{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 500px;
+    padding-top: 70px;
     justify-content: center;
-    
-
 }
+
 p.wildCodeSchool{
     display: flex;
     align-items: flex-end;
@@ -47,12 +50,28 @@ p.wildCodeSchool{
 }
 hr.principal{
     width: 90%;
+    margin-top: 10px;
 }
 p.footer{
     margin: 20px;
     text-align: start;
     height: 10px;
 }
+
+p.footer1 span{
+    display: block;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+p.footer1{
+    display: flex;
+    justify-content: center;
+}
+
+.footer1{
+
+}
+
 .wcsCopyright{
     color: white;
     width: 100%;
@@ -64,3 +83,5 @@ p.footer{
 a.footerLink{
     color: white;
 }
+
+

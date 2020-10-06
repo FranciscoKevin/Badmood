@@ -13,23 +13,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
 </head>
-<?php include("header.php"); ?>
-    <main>
-        <div>
-            <h1 class="message"> <?php echo $_GET['prenom']; ?>, merci pour votre message, nous y répondrons dès que possible.</h3>
-            <br>
-            <p>Cette fenêtre se fermera automatiquement dans quelques secondes.</p>
-        </div>
-    </main>
-
-
-
-<?php include("footer.php"); ?>
-
-<script type="text/javascript">
-var delai=4; // Delai en secondes
-var url='index.php'; // Url de destination
-setTimeout("document.location.replace(url)", delai + '000');
-</script>
+<body>
+    <?php include("header.php")?>
+            <div class="messageContainer">
+                <h1 class="message"> <?php echo $_GET['prenom']; ?>, merci pour votre message, nous y répondrons dès que possible.</h1>
+                <br>
+                <p>Cette fenêtre se fermera automatiquement dans quelques secondes.</p>
+            </div>
+    <script type="text/javascript">
+    var delai=; // Delai en secondes
+    var url='index.php'; // Url de destination
+    setTimeout("document.location.replace(url)", delai + '000');
+    </script>
+    <?php include("footer.php")?>    
 </body>
 </html>

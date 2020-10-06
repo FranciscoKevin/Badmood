@@ -1,9 +1,7 @@
 /* Partie CSS spécifique à la page_contact */
 
 .mainContainer {
-    display: flex;
-    flex-direction: column;
-    position: relative;
+ display: inline-block;
 }
 
 fieldset {
@@ -59,7 +57,7 @@ input,textarea {
 }
 
 /* Redimensionnement des input et textarea quand on passe sur tablette ou portable*/
-@media screen and (max-width: 996px)
+@media(max-width: 996px)
 { 
     input,textarea {
         width: 100%;

@@ -81,7 +81,9 @@ a:hover{
 #check{
   display: none; /*bouton caché en écran destop*/
 }
+
 /* Body commun à toutes les pages (ne doit apparaitre qu'à un seul endroit dans tous le site)*/
+
 body{
   display: flex;
   justify-content: center;

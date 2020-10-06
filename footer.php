@@ -7,7 +7,7 @@
     </div>
     <hr class="principal">
     <div class='informationsFooter'>
-        <p class="footer">N° vert : 3020</p>
+        <p class="footer1"><img src="img/num-vert.png" alt="Numéro vert"><span>0 800 858 858</span></p>
         <p class="footer"><a href="page_contact.php" class="footerLink">A propos</a></p>
         <p class="footer"><a href="page_mentions_legales" class="footerLink">Mentions légales</a></p>
         <p class="footer"><a href="page_contact.php" class="footerLink">Contact</a></p>

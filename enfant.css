@@ -1,11 +1,4 @@
-body {
-    flex-direction: column;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    background-color: grey;
-    width: 996px;
-}
+
 
 .mainBox {
     display: inline-flex;

@@ -3,11 +3,10 @@
 <head>
 	<meta charset="UTF-8">
     <title>BadMood - Page renseignements enfants</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="#">
-    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="enfant.css">
+    <link rel="stylesheet" href="footer.css">
     
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>

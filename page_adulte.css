@@ -11,8 +11,8 @@
 
  /* photos */
 
-.imageChild {
-    background-image: url('https://cdn.pixabay.com/photo/2013/11/28/09/51/sad-219722_960_720.jpg');
+.imageAdult {
+    background-image: url('https://cdn.pixabay.com/photo/2014/07/11/15/09/unhappy-389944_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,8 +23,8 @@
     height: 500px;
 }
 
-.imageChild2 {
-    background-image: url('https://cdn.pixabay.com/photo/2017/07/07/04/09/girl-2480361_960_720.jpg');
+.imageAdult2 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/10/10/16/33/shaman-2837843_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,6 +35,12 @@
     height: 500px;
 }
 .mentionMessage {
+    color: blanchedalmond;
+    margin-bottom: 0px;
+    font-size: 10px;
+}
+
+.mentionPhotoAdulte{
     color: blanchedalmond;
     margin-bottom: 0px;
     font-size: 10px;
@@ -53,7 +59,7 @@ li {
 .rdv {
     font-size: large;
 }
-.blocContainerMentalyCareChild {
+.blocContainerMentalyCareAdult {
     display: grid;
     border-style: 2px solid black;
     text-align: center;
@@ -122,7 +128,7 @@ li {
     }
     
     /* section text */
-    .mentalyCareChild {
+    .mentalyCareAdult {
         background-color: lightgray;
         width: 100%;
         flex-direction: column;
@@ -130,7 +136,7 @@ li {
         align-items: center;
     }
 
-    .blocContainerMentalyCareChild {
+    .blocContainerMentalyCareAdult {
         display: grid;
         border-style: 2px solid black;
         text-align: center;
@@ -182,8 +188,8 @@ li {
             padding: 0;
         }
 
-        .imageChild2 {
-            background-image: url('img/img-child-2.jpg');
+        .imageAdult2 {
+            background-image: url('img/img-adult-2.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;

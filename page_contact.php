@@ -45,6 +45,7 @@
         </section>
         <section class="quiSommesNousContainer">        
             <div class="quiSommesNous">
+                <a name="ancre"></a>
                 <h1>Qui sommes-nous?</h1>
                 <p>
                     L'association BadMood est composée d'une dizaine de bénévoles, tous issus d'études en comportement psychologique et/ou impactés par des comportements psychologiques dans leur entourage. Notre but est de vous apporter conseil et soutien,et de vous rediriger vers les spécialistes les plus compétents en fonction de votre besoin.

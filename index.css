@@ -159,6 +159,7 @@
     color: white;
 }
 
+
 @media only screen and (min-width: 640px){
 
 
@@ -257,4 +258,7 @@
         margin: 10%;
         z-index: 100;
     }
+
 }
+
+

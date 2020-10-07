@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="script.js"></script>
+
 
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -84,5 +87,6 @@
     </div>
 	</section>
         <?php include('footer.php');?>
+         
 </body>
 </html>

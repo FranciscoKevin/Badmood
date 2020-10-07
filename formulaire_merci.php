@@ -16,7 +16,7 @@
     <?php include("header.php")?>
         <main>
             <div class="messageContainer">
-                <h1 class="message"> <?php echo $_GET['prenom']; ?>, merci pour votre message, nous y répondrons dès que possible.</h1>
+                <h1 class="message"> <?php echo $_POST['prenom']; ?>, merci pour votre message, nous y répondrons dès que possible.</h1>
                 <p>Cette fenêtre se fermera automatiquement dans quelques secondes.</p>
             </div>
         </main>

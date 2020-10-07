@@ -24,7 +24,7 @@
                         Un bug sur notre site? <br>
                         N'hésitez pas à nous contacter via le formulaire suivant, nous vous répondrons dès que possible.
                     </p>
-                    <form target ="_self" action="formulaire_merci.php" method="GET" class= "formulaire" autocomplete="on">
+                    <form target ="_self" action="formulaire_merci.php" method="POST" class= "formulaire" autocomplete="on">
                         <div class="formulaire">
                         <input type="text" name="nom" id="nom" required placeholder="Votre nom">
                         </div>

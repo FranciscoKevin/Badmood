@@ -22,7 +22,7 @@
             <section class="blocContainerMentalyCareAdult"> <!-- repèrer "symptôme"-->
                 <div class="bloc element-0"><h1>Les Troubles chez les adultes</h1></div>
                     <div class="bloc element-1">
-                        <p>
+                        <div class="liste"><p>
                             Des symptômes peuvent être révélateur d'un mal-être, d'une inhibition 
                             des potentialités d'épanouissement ou d'un dysfonctionnement interpersonnel.
                             <br><br>
@@ -39,15 +39,21 @@
                             peuvent construire un portait mental de la personne suite à de nombreuses séances.
                             <br>
                             Votre mal être n'est pas une fatalité ! <br>
-                            Martellons-le, il est possible d'agir et d'y remédier. 
+                            <b>Martellons-le, il est possible d'agir et d'y remédier.</b> 
                         </p>
+                        </div>
                     </div>
                     <div class="bloc element-2"> <!-- Témoignage -->
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/a6MQiB-ic3s" 
+                        <div class="video">
+                        <iframe width="560" height="100%" src="https://www.youtube.com/embed/a6MQiB-ic3s" 
                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                         gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
-                        <p>Vous pouvez retrouver des témoignages de personne souffrantes de troubles ou de leurs entourages <a href="https://fondationdouglas.qc.ca/temoignage/">ici</a>.</p>
+                        </div>
+                        <div class="videoText">
+                            <p>Vous pouvez retrouver des témoignages de personne souffrantes de 
+                                troubles ou de leurs entourages <a href="https://fondationdouglas.qc.ca/temoignage/"><b>ici</b></a>.</p>
+                        </div>
                     </div>
                     <div class="bloc element-3"> <!-- partie prise de rendez-vous-->
                         <p>
@@ -55,9 +61,9 @@
                             d'en parler à votre médicin qui pourra vous orienter vers les professionnels les plus adaptés pour votre problème.
                         </p>
                         <br><br>
-                        <p>vous pouvez aussi vous référer à notre page <a>professionnels de santé</a> pour trouver la personne la plus adapté à vos soucis</p>
-                        <p>rendez-vous avec un psychologue près de chez vous : <a href="https://www.doctolib.fr/psychologue/antony-antony">cliquez ici</a></p>
-                        <p>rendez-vous avec un psychiatre près de chez vous : <a href="https://www.doctolib.fr/psychiatre/antony-antony">cliquez ici</a></p>        
+                        <p>vous pouvez aussi vous référer à notre page <a>professionnels de santé</a> pour trouver la personne la plus adapté à vos soucis<br><br></p>
+                        <p class="rdv">rendez-vous avec un psychologue près de chez vous : <a href="https://www.doctolib.fr/psychologue/antony-antony">cliquez ici</a><br><br></p>
+                        <p class="rdv">rendez-vous avec un psychiatre près de chez vous : <a href="https://www.doctolib.fr/psychiatre/antony-antony">cliquez ici</a></p>        
                     </div>
                     <div class=" imageAdult2 bloc element-4"> <!-- photo fin de page-->
                         <p class="mentionPhotoAdulte">Image par Алина Осипова de Pixabay</p>

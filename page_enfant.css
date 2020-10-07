@@ -11,8 +11,8 @@
 
  /* photos */
 
-.imageAdult {
-    background-image: url('https://cdn.pixabay.com/photo/2014/07/11/15/09/unhappy-389944_960_720.jpg');
+.imageChild {
+    background-image: url('https://cdn.pixabay.com/photo/2013/11/28/09/51/sad-219722_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,8 +23,8 @@
     height: 500px;
 }
 
-.imageAdult2 {
-    background-image: url('https://cdn.pixabay.com/photo/2017/10/10/16/33/shaman-2837843_960_720.jpg');
+.imageChild2 {
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/07/04/09/girl-2480361_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,20 +40,17 @@
     font-size: 10px;
 }
 
-.mentionPhotoAdulte{
-    color: blanchedalmond;
-    margin-bottom: 0px;
-    font-size: 10px;
-}
-
 /* section text */
 h1 {
     font-size: xx-large;
 }
 
-li {
-    padding: 0.3em;
-    list-style: circle;
+ul.listeTroubles {
+    background: inherit;
+    position: inherit;
+    text-align: justify;
+    height: 100%;
+    list-style-type: circle;
 }
 
 .liste{
@@ -64,7 +61,7 @@ li {
     font-size: large;
 }
 
-.blocContainerMentalyCareAdult {
+.blocContainerMentalyCareChild {
     display: grid;
     border-style: 2px solid black;
     text-align: center;
@@ -87,6 +84,8 @@ li {
 }
 
 .element-1 {
+    display: flex;
+    flex-direction: column;
     grid-column-start: 1;
     grid-column-end: 2;
     text-align: justify;
@@ -142,7 +141,7 @@ li {
     }
     
     /* section text */
-    .mentalyCareAdult {
+    .mentalyCareChild {
         background-color: lightgray;
         width: 100%;
         flex-direction: column;
@@ -150,7 +149,7 @@ li {
         align-items: center;
     }
 
-    .blocContainerMentalyCareAdult {
+    .blocContainerMentalyCareChild {
         display: grid;
         border-style: 2px solid black;
         text-align: center;
@@ -179,6 +178,7 @@ li {
             width: 100%;
             height: 100%;
             align-items: center;
+            justify-content: center;
             grid-column-start: 1;
             grid-column-end: 2;
         }
@@ -193,7 +193,7 @@ li {
             padding-bottom: 1em;
             width: 100%;
         }
-        
+                
         .element-3 {
             grid-column-start: 1;
             grid-column-end: 2;
@@ -205,8 +205,8 @@ li {
             padding: 0;
         }
 
-        .imageAdult2 {
-            background-image: url('img/img-adult-2.jpg');
+        .imageChild2 {
+            background-image: url('img/img-child-2.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;

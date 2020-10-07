@@ -1,13 +1,14 @@
 body {
     flex-direction: column;
-    display: inline-block;
+    display: block;
     justify-content: center;
     align-items: center;
     background-color: grey;
+    width: 996px;
 }
 
 .mainBox {
-    display: inline-block;
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -15,16 +16,22 @@ body {
 }
 
  /* photos */
-.imageChild {
-    justify-content: center;
-    align-items: center;
+ .blockPhoto {
+    display: inline-block;
     width: 100%;
 }
 
+.imageChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .mentionPhoto {
+    display: flex;
     background-color: black;
     width: 100%;
-    margin-top: 0px;
+    margin-top: -1em;
     margin-bottom: 0px;
     font-size: 10px;
     padding-left: 1em;
@@ -32,14 +39,15 @@ body {
 
 .mentionMessage {
     color: blanchedalmond;
-    margin-top: -1em;
     margin-bottom: 0px;
 }
 
 /* section text */
 .mentalyCareChild {
+    display: inline-flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
+    padding-left: 2em;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
@@ -51,14 +59,17 @@ body {
     align-items: center;
     text-align: center;
     padding: 1em;
+    margin: 1em;
+    border: solid;
 }
 
 .temoignageEnf {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100%;
+    width: 80%;
     padding: 1em;
+    border: solid;
 }
 
 .rdvEnf {
@@ -68,14 +79,17 @@ body {
     width: 100%;
     border-top: double;
     padding: 1em;
+    margin-bottom: 1em;
+    border: solid black;
 }
 
 /* Format écran */
 @media (max-width: 996px) {
     .mainBox {
-        display: inline-block;
+        display: inline-flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     
      /* photos */
@@ -85,7 +99,7 @@ body {
     
     .mentionPhoto {
         background-color: black;
-        width: 100%;
+        width: 50%;
         margin-top: 0px;
         margin-bottom: 0px;
         font-size: 10px;
@@ -93,7 +107,7 @@ body {
     
     .mentionMessage {
         color: blanchedalmond;
-        margin-top: -1em;
+        margin-top: -0.5em;
         margin-bottom: 0px;
     }
     

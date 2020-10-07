@@ -18,9 +18,11 @@
     <?php include("header.php")?>
         <main class="mainBox">
             <section class="imageChild">
-                <img src="https://cdn.pixabay.com/photo/2013/11/28/09/51/sad-219722_960_720.jpg" alt="enfant, triste">
-                <div class="mentionPhoto">
-                    <p class="mentionMessage">Image par PublicDomainPictures de Pixabay </p>
+                <div class="blockPhoto">
+                    <img src="https://cdn.pixabay.com/photo/2013/11/28/09/51/sad-219722_960_720.jpg" alt="enfant, triste">
+                    <div class="mentionPhoto">
+                        <p class="mentionMessage">Image par PublicDomainPictures de Pixabay </p>
+                    </div>
                 </div>
             </section>
             <section class="mentalyCareChild">
@@ -76,9 +78,11 @@
                 </div>
             </section>
             <section class="imageChild"> <!-- photo fin de page-->
-                <img src="https://cdn.pixabay.com/photo/2017/07/07/04/09/girl-2480361_960_720.jpg" alt="mère, enfant, ensemble">
-                <div class="mentionPhoto">
-                    <p class ="mentionMessage">Image par 5540867 de Pixabay</p>
+                <div class="blockPhoto">
+                    <img src="https://cdn.pixabay.com/photo/2017/07/07/04/09/girl-2480361_960_720.jpg" alt="mère, enfant, ensemble">
+                    <div class="mentionPhoto">
+                        <p class ="mentionMessage">Image par 5540867 de Pixabay</p>
+                    </div>
                 </div>
             </section>
         <main>

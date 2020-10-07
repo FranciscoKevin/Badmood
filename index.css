@@ -124,7 +124,7 @@
     position: relative;
     width: 100%;
     height: 100%;
-    background-image: url('img/img_contact3.jpg');
+    background-image: url('img/youngOld.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@
     width: 100%;
     background-color: black;
     text-align: center;
-    background-image: url('img/img_contact3.jpg');
+    background-image: url('img/marco-bianchetti.jpg');
     background-position: center; 
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,8 +171,7 @@
     }
     .h2Title{
         text-align: center;
-        
-        
+        z-index: 100;
     }
     .gridCard{
         margin: 2px;
@@ -202,7 +201,7 @@
         width: 100%;
         background-color: black;
         text-align: center;
-        background-image: url('img/img_contact3.jpg');
+        background-image: url('img/marco-bianchetti.jpg');
         background-position: center; 
         background-size: cover;
         background-repeat: no-repeat;
@@ -222,23 +221,16 @@
         position: relative;
         width: 100%;
         height: 100%;
-        background-image: url('img/img_contact3.jpg');
+        background-image: url('img/youngOld.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
        
     }
     .methodes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 100;
+        margin: 10%;
+        z-index: 10;
     }
-    .h2Title{
-        text-align: center;
-        z-index: 100;
-        
-        
     }
     .systemCard{
         width: 100%;
@@ -251,14 +243,16 @@
         cursor: pointer;
     }
     #ytplayer{
-        width: 500px;
-        height: px;
+        width: 100%;
+        height: 100%;
     }
     
-    .methodes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .needHelp{
+        margin: 10%;
+        z-index: 10;
     }
-
+    .system{
+        margin: 10%;
+        z-index: 10;
+    }
 }

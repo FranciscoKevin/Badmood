@@ -230,10 +230,8 @@
     }
     .methodes{
         margin: 10%;
-        z-index: 100;
+        z-index: 10;
     }
-   
-        
     }
     .systemCard{
         width: 100%;
@@ -252,11 +250,11 @@
     
     .needHelp{
         margin: 10%;
-        z-index: 100;
+        z-index: 10;
     }
     .system{
         margin: 10%;
-        z-index: 100;
+        z-index: 10;
     }
 
 }

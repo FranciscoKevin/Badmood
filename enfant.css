@@ -1,0 +1,114 @@
+
+
+.mainBox {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+ /* photos */
+ .blockPhoto {
+    display: inline-block;
+    width: 100%;
+}
+
+.imageChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mentionPhoto {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    margin-top: -1em;
+    margin-bottom: 0px;
+    font-size: 10px;
+    padding-left: 1em;
+}
+
+.mentionMessage {
+    color: blanchedalmond;
+    margin-bottom: 0px;
+}
+
+/* section text */
+.mentalyCareChild {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 80%;
+}
+
+.signalAlarm {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border: solid;
+}
+
+.temoignageEnf {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding: 1em;
+    border: solid;
+}
+
+.rdvEnf {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border-top: double;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: solid black;
+}
+
+/* Format écran */
+@media (max-width: 996px) {
+    .mainBox {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+     /* photos */
+    .imageChild {
+        display: flex;
+    }
+    
+    .mentionPhoto {
+        background-color: black;
+        width: 50%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 10px;
+    }
+    
+    .mentionMessage {
+        color: blanchedalmond;
+        margin-top: -0.5em;
+        margin-bottom: 0px;
+    }
+    
+    /* section text */
+    .mentalyCareChild {
+        background-color: lightgray;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }

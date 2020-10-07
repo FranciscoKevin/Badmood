@@ -171,8 +171,7 @@
     }
     .h2Title{
         text-align: center;
-        
-        
+        z-index: 100;
     }
     .gridCard{
         margin: 2px;
@@ -229,15 +228,10 @@
        
     }
     .methodes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 5%;
         z-index: 100;
     }
-    .h2Title{
-        text-align: center;
-        z-index: 100;
-        
+   
         
     }
     .systemCard{
@@ -255,10 +249,13 @@
         height: px;
     }
     
-    .methodes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .needHelp{
+        margin: 5%;
+        z-index: 100;
     }
-
+    .system{
+        margin: 5%;
+        z-index: 100;
+    }
+    
 }

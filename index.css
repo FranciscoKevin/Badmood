@@ -228,7 +228,7 @@
        
     }
     .methodes{
-        margin: 5%;
+        margin: 10%;
         z-index: 100;
     }
    
@@ -250,11 +250,11 @@
     }
     
     .needHelp{
-        margin: 5%;
+        margin: 10%;
         z-index: 100;
     }
     .system{
-        margin: 5%;
+        margin: 10%;
         z-index: 100;
     }
 }

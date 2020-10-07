@@ -1,7 +1,6 @@
  
  			<!-- NAVIGATION-->
   
-
   <nav>
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
@@ -15,3 +14,4 @@
       <li><a class="menu" href="page_contact.php">Contact</a></li>
     </ul>
   </nav>
+  

@@ -1,10 +1,11 @@
 body {
     flex-direction: column;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: grey;
-    width: 996px;
+    width: 100%;
+    margin: 0;
 }
 
 .mainBox {
@@ -12,23 +13,27 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     margin: 0%;
+    border: solid blue;
 }
 
  /* photos */
  .blockPhoto {
     display: inline-block;
-    width: 100%;
+    width: auto;
+    border:  solid red;
 }
 
 .imageChild {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .mentionPhoto {
-    display: flex;
+    display: block;
     background-color: black;
     width: 100%;
     margin-top: -1em;
@@ -46,37 +51,41 @@ body {
 .mentalyCareChild {
     display: inline-flex;
     flex-direction: column;
-    text-align: left;
     padding-left: 2em;
     justify-content: center;
     align-items: center;
     background-color: lightgray;
-    width: 80%;
+    width: 90%;
+    border: solid violet;
 }
 
 .signalAlarm {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     padding: 1em;
     margin: 1em;
     border: solid;
 }
 
 .temoignageEnf {
+    display: block;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: justify;
     width: 80%;
     padding: 1em;
     border: solid;
 }
 
 .rdvEnf {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    width: 100%;
+    text-align: justify;
+    width: 90%;
     border-top: double;
     padding: 1em;
     margin-bottom: 1em;
@@ -86,36 +95,34 @@ body {
 /* Format écran */
 @media (max-width: 996px) {
     .mainBox {
-        display: inline-flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        display: inline-block;
     }
     
      /* photos */
     .imageChild {
-        display: flex;
+        display: block;
+        width: auto;
     }
-    
-    .mentionPhoto {
-        background-color: black;
-        width: 50%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        font-size: 10px;
-    }
-    
+
     .mentionMessage {
-        color: blanchedalmond;
-        margin-top: -0.5em;
-        margin-bottom: 0px;
+        text-align: center;
     }
     
     /* section text */
     .mentalyCareChild {
-        background-color: lightgray;
-        width: 80%;
+        width: 100%;
+    }
+
+    .signalAlarm {
+        display: inline-flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+    }   
+
+    .temoignageEnf {
+        width: 100%;
+    }
+
+    .rdvEnf {
+        width: 100%;
     }

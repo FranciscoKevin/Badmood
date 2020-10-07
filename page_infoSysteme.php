@@ -17,23 +17,18 @@
 <body>
     <?php include("header.php")?>
         <section>
-            <h1>Système de remboursement et les difféences de praticien</h1>
-            <ul>
-                <li>Ce faire rembourser sa consultation</li>
-                <li>les différences entre les différences proféssionnels de santé</li>
-            </ul>
-        </section>
-        <main>
-            <section class="sommaire">
-                <h1>Système de remboursement et les difféences de praticien</h1>
+            <p>En France le systeme de santé à pas mal évolué depuis ces dernières années.<br>La ministre des Solidarités et de la Santé à apporté des changements en 2018 dont l'enjeu est d’améliorer les conditions de vie, l’accès aux soins et l’inclusion sociale. Ce sont les objectifs de la feuille de route santé mentale et psychiatrie pour changer le regard sur ces maladies.</p>
+
+            <h2>Trois grands axes d’intervention pour changer de regard sur la santé mentale ainsi qu'améliorer l’accès aux soins, leurs conditions de vie ainsi que l'inclusion sociale.</h2>
                 <ul>
-                    <li>Ce faire rembourser sa consultation</li>
-                    <li>les différences entre les différences proféssionnels de santé</li>
+                    <li>Promouvoir le bien être mental, prévenir et repérer précocement la souffrance psychique, et prévenir le suicide.</li>
+                    <li>Garantir des parcours de soins coordonnés et soutenus par une offre en psychiatrie accessible, diversifiée et de qualité.</li>
+                    <li>Améliorer les conditions de vie et d’inclusion sociale et la citoyenneté des personnes en situation de handicap psychique.</li>
                 </ul>
-            </section>
+            <p>Les objectifs du système est d'apporter une vision positive de la santé mentale, déterminant essentiel de la santé, et de promouvoir une psychiatrie qui ne soit plus le parent pauvre de la médecine.</p>
+        </section>
             <section>
-                <div>
-                    <h2>Les différents praticiens</h2>
+                    <h2>Les praticiens</h2>
                     <p>
                         Le psychiatre est diplômé de ses études en école de médecine, suite à 5 ans de spécialisation.
                         Il est donc à ce titre médecin.<br>
@@ -45,11 +40,9 @@
                         Ne peut pas préscrire de médicaments.<br>
                         Il accompagne et aide le patient à identifier les raisons de 
                         sa souffrance et à trouver des solutions pour y remédier.
-                    </p>
-                </div>
-                <br>
+                    </p><br>
                 <div class="psychiaRemb">
-                    <h2>Quelles conséquences pour le remboursement?</h2>
+                    <h2>Le système de remboursement</h2>
                     <br>
                     <h4>Pour le psychiatre</h4>
                     <p>
@@ -82,12 +75,12 @@
                         <br>
                         Certaines mutuelles proposent un remboursement des rendez-vous chez le psychologue 
                         soit par forfait annuel ou par nombre de séances.
-                        <br><br>
+                        <br>
                         <a href="https://www.aide-sociale.fr/psychologue-remboursement/">source</a>
                     </p>
                 </div>
+                <a href="https://www.aide-sociale.fr/psychologue-remboursement/">Pour en avoir plus sur le systeme des soins</a>
             </section>
-        </main>
         <?php include("footer.php")?> 
     </body>
 </html>

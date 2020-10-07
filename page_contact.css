@@ -30,7 +30,7 @@ fieldset {
     display: flex;
     background-size: cover;
     justify-content: center;
-    padding: 10px;
+    padding: 50px 0 100px 0;
 }
 
 .titleContact {
@@ -132,13 +132,16 @@ form div {
 }
 
 .quiSommesNousContainer {
+    margin-top: 2px;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-image: url(img/img-team-compressed-resized.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .quiSommesNous {
-    margin: auto;
+    margin: 0 auto 10% auto;
     width: 80%;
     line-height: 2em;
     text-align: justify;

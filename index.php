@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <title>BadMood</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
@@ -32,60 +33,45 @@
             </div>
         </div>
     </div>
-    <div class="gridCard">
-        <div class='ytFrameCard'>
+    <main>
+
+        <div class="gridMain">
+            <div class='ytFrameCard'>
                 <iframe id="ytplayer" type="text/html" width="640" height="360" frameborder="0"
                         src="https://www.youtube.com/embed/0Yr4hyFSJPk?autoplay=0&mute=1&controls=2&origin=http://example.com">
                 </iframe>
-        </div>
-        <div class='methodesCard'>             
-            <div class='indexTitles'>
+            </div>
+            <div class="methodesCard">
                 <h2 class="h2Title">METHODES</h2>
-            </div>
-            <article class="methodes">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nam laoreet felis vel eros convallis condimentum. Vestibulum nunc mauris, venenatis vel lobortis eget, scelerisque nec turpis. 
-                    Vivamus pharetra vel diam placerat tempus.
-                    Suspendisse potenti. Nam at lectus eu nisl congue vestibulum ut eget turpis. 
-                    Proin interdum neque erat, eget vestibulum libero tristique sed. Vivamus consequat rutrum nisl et aliquam. 
-                    Morbi enim diam, malesuada nec consectetur eget, consectetur eget turpis.
+                    Témoignages, articles </br> et professionnels de santé 
                 </p>
-        
-            </article>
-        </div>
-        <a href=""><div class='helpCard'></a>
-            <div class='indexTitles'>
+                <div class="childrenAdults">
+                    <a class="childrenCard" target=”_blank” href="page_enfant.php">
+                    Enfants
+                    </a>
+                    <a class="adultsCard" target=”_blank” href="page_adulte.php">
+                    Adultes
+                    </a>  
+                </div>
+            </div>
+            <div class="helpCard">
                 <h2 class="h2Title">BESOIN D'AIDE</h2>
+                <a class="aArticleCard" target=”_blank” href="https://fr.wikihow.com/g%C3%A9rer-une-personne-angoiss%C3%A9e">
+                    Comment prévenir une crise, en cas d'urgence téléphoner au <br>
+                    0 800 858 858 (numéro gratuit)
+                </a>
             </div>
-            <article class="needHelp">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nam laoreet felis vel eros convallis condimentum. Vestibulum nunc mauris, venenatis vel lobortis eget, scelerisque nec turpis. 
-                    Vivamus pharetra vel diam placerat tempus.
-                    Suspendisse potenti. Nam at lectus eu nisl congue vestibulum ut eget turpis. 
-                    Proin interdum neque erat, eget vestibulum libero tristique sed. Vivamus consequat rutrum nisl et aliquam. 
-                    Morbi enim diam, malesuada nec consectetur eget, consectetur eget turpis.
-                </p>
-            </article>
-        </div>
-        <div class='systemCard'>
-            <div class='indexTitles'>
-                <h2 class="h2Title"><a href="page_infoSysteme.php" class="systemeLink">LE SYSTEME DE SANTE FRANCAIS</a></h2>
+            <div class="systemCard">
+                <h2 class="h2Title">LE SYSTEME DE SANTE FRANCAIS</h2>
+                <a class="aArticleCard" target=”_blank” href="page_infoSysteme.php">
+                    <p>
+                        Prise en charge, assurance maladie, <br> divers praticiens
+                    </p>
+                </a>
             </div>
-            <article class="system">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Nam laoreet felis vel eros convallis condimentum. Vestibulum nunc mauris, venenatis vel lobortis eget, scelerisque nec turpis. 
-                    Vivamus pharetra vel diam placerat tempus.
-                    Suspendisse potenti. Nam at lectus eu nisl congue vestibulum ut eget turpis. 
-                    Proin interdum neque erat, eget vestibulum libero tristique sed. Vivamus consequat rutrum nisl et aliquam. 
-                    Morbi enim diam, malesuada nec consectetur eget, consectetur eget turpis.
-                </p>
-            </article>
         </div>
-    </div>
-	</section>
+    </main>
         <?php include('footer.php');?>
          
 </body>

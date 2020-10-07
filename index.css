@@ -1,13 +1,22 @@
-/*Partie CSS commune à toutes les pages.*/
-.generalSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    
-}
+/*Import minimista*/
+
+/* Background slide */
+@-webkit-keyframes bg-pan-tl {
+    0% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+  @keyframes bg-pan-tl {
+    0% {
+      background-position: 100% 100%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  } 
 /* Image Part of Home Page*/
 .indexImage{
     display: flex;
@@ -30,15 +39,6 @@
     height: 560px;
 
 }
-.gridCard{
-    margin: 2px;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 350px 350px 350px 350px;
-    color: white;
-    overflow: hidden;
-    row-gap: 2px;
-}
 .textOnImage{
     font-size: 22px;
     color: white;
@@ -52,7 +52,7 @@
 .presentation1 {
     text-align: center; 
     height: 100%;
-    width: 100%; 
+    width: 75%; 
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -81,82 +81,113 @@
     color: white;
     font-size: 10px;
 }
-/* Principal Cards of Home Page */
 
-.indexTitles{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+/* Principal Cards of Home Page */
+.gridMain{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 550px 550px 550px 550px ;
+    row-gap: 2px;
+    column-gap: 2px;
+    overflow: hidden;
 }
 .h2Title{
-    text-align: center;
-}
-
-.iframeCard{
-    display: flex;
-    flex-direction: column;
+    font-size: 45px;
+    color: white;
     justify-content: center;
-    align-items: center;
-    display: flex;
+    align-items: flex-start;
+    margin: 20px;  
+}
+.ytFrameCard{
     width: 100%;
-    height: 100%;
-    padding: 5px;
-    
+    height: 550px;
+    text-align: center;
+    background-size: contain;   
+    padding: 0px;
+    cursor: pointer;
 }
 #ytplayer{
     width: 100%;
     height: 100%;
 }
-
-.methodes{
+.methodesCard{
+    background: url('img/youngOld.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.methodesCard{
-    background-color: black;
-    text-align: center;
-    padding: 0px;
+    flex-direction: column;
     cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    background-image: url('img/youngOld.jpg');
-    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-   
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.childrenAdults{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 45px;
+    opacity: 0.7;
+    margin: 5px;
+    width: 50%;
+}
+.childrenCard{
+    color: white;
+    margin: 20px;
+    background-color: #36424d ;
+    border-radius: 10px;
+    font-size: 2.2rem;
+    width: 70%;
+}
+.adultsCard{
+    color: white;
+    margin: 20px;
+    background-color: #36424d ;
+    border-radius: 10px;
+    font-size: 2.2rem;
+    width: 70%;
+}    
+a.childrenCard:hover{
+    color: white;
+    text-decoration: none
+}
+a.adultsCard:hover{
+    color: white;
+    text-decoration: none
 }
 .helpCard{
     width: 100%;
-    background-color: black;
-    text-align: center;
-    background-image: url('img/marco-bianchetti.jpg');
-    background-position: center; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 0px;
-   
-    
     cursor: pointer;
-    transition: 1s;
-    
+    overflow: hidden;
+    background: url('img/marco-bianchetti.jpg')no-repeat center center;
+    background-size: cover;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 .systemCard{
     width: 100%;
-    background-color: black;
-    text-align: center;
-    background-image: url('img/img_contact3.jpg');
-    background-position: center;
+    background: url('img/frenchSystem.jpg')no-repeat center center;
     background-size: cover;   
-    padding: 0px;
     cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
-.systemeLink {
+.aArticleCard{
     color: white;
+}
+.aArticleCard:hover{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -164,31 +195,46 @@
 
 
     /* Principal Cards of Home Page */
-    .indexTitles{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 20px;
+    main{
+        width: 100%;
     }
-    .h2Title{
-        text-align: center;
-        z-index: 100;
+    
+    a.childrenCard:hover{
+        color: white;
+        text-decoration: none
     }
-    .gridCard{
-        margin: 2px;
+    a.adultsCard:hover{
+        color: white;
+        text-decoration: none
+    }
+    .childrenCard{
+        color: white;
+        margin: 20px;
+        background-color: #36424d ;
+        border-radius: 10px;
+        font-size: 2.2rem;
+        width: 70%;
+    } 
+    .adultsCard{
+        color: white;
+        margin: 20px;
+        background-color: #36424d ;
+        border-radius: 10px;
+        font-size: 2.2rem;
+        width: 70%;
+    }    
+    .gridMain{
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 350px 350px ;
         row-gap: 2px;
         column-gap: 2px;
-        color: white;
         overflow: hidden;
     }
 
     .ytFrameCard{
         width: 100%;
         height: 350px;
-        background-color: black;
         text-align: center;
         background-size: contain;   
         padding: 0px;
@@ -198,63 +244,69 @@
         width: 100%;
         height: 100%;
     }
+    .methodesCard{
+        background: url('img/youngOld.jpg') no-repeat center center;
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        background-size: cover;
+        animation: bg-pan-tl 10s backwards;
+        color: white;
+        font-size: 2rem;
+    }
+    .childrenAdults{
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        font-size: 45px;
+        opacity: 0.7;
+        margin: 5px;
+        width: 50%;
+    }
     .helpCard{
         width: 100%;
-        background-color: black;
-        text-align: center;
-        background-image: url('img/marco-bianchetti.jpg');
-        background-position: center; 
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding: 0px;
-       
-        
-        cursor: pointer;
-        transition: 1s;
-        
-    }
-    .methodesCard{
-        background-color: black;
-        text-align: center;
-        padding: 0px;
         cursor: pointer;
         overflow: hidden;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        background-image: url('img/youngOld.jpg');
-        background-position: center;
+        background: url('img/marco-bianchetti.jpg')no-repeat center center;
         background-size: cover;
-        background-repeat: no-repeat;
-       
-    }
-    .methodes{
-        margin: 10%;
-        z-index: 10;
-    }
-    }
-    .systemCard{
-        width: 100%;
-        background-color: black;
-        text-align: center;
-        background-image: url('img/img_contact3.jpg');
-        background-position: center;
-        background-size: cover;   
-        padding: 0px;
-        cursor: pointer;
-    }
-    #ytplayer{
-        width: 100%;
-        height: 100%;
+        animation: bg-pan-tl 10s backwards;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     
-    .needHelp{
-        margin: 10%;
-        z-index: 10;
+    .systemCard{
+        width: 100%;
+        background: url('img/frenchSystem.jpg')no-repeat center center;
+        background-size: cover;   
+        cursor: pointer;
+        animation: bg-pan-tl 10s backwards;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
-    .system{
-        margin: 10%;
-        z-index: 10;
+    .aArticleCard{
+        color: white;
+    }
+    .aArticleCard:hover{
+        color: white;
+        text-decoration: none;
+    }
+    .h2Title{
+        font-size: 45px;
+        color: white;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 20px;
+        
     }
 
 }

@@ -245,8 +245,8 @@
         cursor: pointer;
     }
     #ytplayer{
-        width: 500px;
-        height: px;
+        width: 100%;
+        height: 100%;
     }
     
     .needHelp{
@@ -257,5 +257,4 @@
         margin: 5%;
         z-index: 100;
     }
-    
 }

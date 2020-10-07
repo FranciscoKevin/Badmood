@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="footer.css">
+    <title>BadMood - Mentions légales</title>
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="mentions_legales.css">
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -18,10 +17,10 @@
 
     <div class="highlight" style="text-align:justify">
         <h2>Identité</h2>
-        <p>Nom du site web : &lt; Nom du site &gt;<br>
-        Adresse : &lt; <a href="http://webexpress.fr" data-wpel-link="internal">http://nomdusite.domaine</a> &gt;<br>
-        Propriétaire : &lt; propriétaire &gt;<br>
-        Responsable de publication : &lt; nom du contact &gt; | <a href="http://www.webexpress.fr/contact/" data-wpel-link="internal">Contacter…</a></p>
+        <p>Nom du site web : BadMood<br>
+        Adresse : <a href="http://webexpress.fr" data-wpel-link="internal">http://BadMood.fr</a><br>
+        Propriétaire : Wild Code School<br>
+        Responsable de publication : Morgane, Florian, Kevin F. et Kevin R. | <a href="http://www.webexpress.fr/contact/" data-wpel-link="internal">Contacter…</a></p>
         <p>Conception et réalisation : &lt; concepteur &gt;<br>
         Animation : &lt; animateur &gt;<br>
         Hébergement : <a href="http://webexpress.fr" data-wpel-link="internal">&lt; hébergeur &gt;</a></p>

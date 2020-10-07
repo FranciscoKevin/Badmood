@@ -60,7 +60,7 @@ p.footer{
 
 p.footer1 span{
     display: block;
-    margin-top: 5px;
+    margin-top: 4px;
     padding-left: 5px;
 }
 p.footer1{
@@ -92,4 +92,9 @@ a.footerLink{
   transition: .5s;
 }
 
+@media (max-width: 996px){
+    .footerLink:hover{
+      background: none;
+    }
+}
 

@@ -22,7 +22,7 @@
         </main>
         <?php include("footer.php")?>    
     <script type="text/javascript">
-    var delai=; // Delai en secondes
+    var delai=4; // Delai en secondes
     var url='index.php'; // Url de destination
     setTimeout("document.location.replace(url)", delai + '000');
     </script>  

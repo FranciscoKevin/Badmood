@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="header.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
-    <script src="script.js"></script>
-
 
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -18,21 +15,18 @@
 </head>
 <body>
     <?php include("header.php")?>
+    <main>
     <div class='imageCard'>
         <div class="textOnImage">
             <p class="presentation1">
-                vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement?</br>
+                vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement?<br>
                 Nous vous proposons des professionnels compétents vers qui vous tourner ainsi que les gestes à adopter.
             </p>
-            <div class="mentionImgIndex">
-                <p class="mentionImg">
-                    @cristian_newman
-                </p>
-            </div>
+            <p class="mentionImg">
+                @cristian_newman
+            </p>
         </div>
     </div>
-    <main>
-
         <div class="gridMain">
             <div class='ytFrameCard'>
                 <iframe id="ytplayer" type="text/html" width="640" height="360" frameborder="0"
@@ -42,15 +36,15 @@
             <div class="methodesCard">
                 <h2 class="h2Title">METHODES</h2>
                 <p>
-                    Témoignages, articles </br> et professionnels de santé 
+                    Témoignages, articles <br> et professionnels de santé 
                 </p>
                 <div class="childrenAdults">
                     <a class="childrenCard" target=”_blank” href="page_enfant.php">
-                    Enfants
+                        Enfants
                     </a>
                     <a class="adultsCard" target=”_blank” href="page_adulte.php">
-                    Adultes
-                    </a>  
+                        Adultes
+                    </a>
                 </div>
             </div>
             <div class="helpCard">
@@ -63,14 +57,11 @@
             <div class="systemCard">
                 <h2 class="h2Title">LE SYSTEME DE SANTE FRANCAIS</h2>
                 <a class="aArticleCard" target=”_blank” href="page_infoSysteme.php">
-                    <p>
-                        Prise en charge, assurance maladie, <br> divers praticiens
-                    </p>
+                    Prise en charge, assurance maladie, <br> divers praticiens
                 </a>
             </div>
         </div>
     </main>
         <?php include('footer.php');?>
-         
 </body>
 </html>

@@ -1,20 +1,13 @@
 /*Import minimista*/
 
 /* Background slide */
-@-webkit-keyframes bg-pan-tl {
-    0% {
-      background-position: 100% 100%;
-    }
-    100% {
-      background-position: 0% 0%;
-    }
-  }
   @keyframes bg-pan-tl {
-    0% {
+    
+    from {
       background-position: 100% 100%;
     }
-    100% {
-      background-position: 0% 0%;
+    to {
+      background-position: 80% 80%;
     }
   } 
 /* Image Part of Home Page*/
@@ -58,15 +51,12 @@
     align-items: center;
     font-size: 30px;
 }
-
-.mentionImgIndex{
+.mentionImg{
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-}
-.mentionImg{
     color: white;
     font-size: 10px;
 }
@@ -79,6 +69,7 @@
     row-gap: 2px;
     column-gap: 2px;
     overflow: hidden;
+    
 }
 .h2Title{
     font-size: 45px;
@@ -218,9 +209,7 @@ a.adultsCard:hover{
         grid-template-rows: 350px 350px ;
         row-gap: 2px;
         column-gap: 2px;
-        overflow: hidden;
     }
-
     .ytFrameCard{
         width: 100%;
         height: 350px;
@@ -243,9 +232,10 @@ a.adultsCard:hover{
         flex-direction: column;
         cursor: pointer;
         background-size: cover;
-        animation: bg-pan-tl 10s backwards;
         color: white;
         font-size: 2rem;
+        animation: bg-pan-tl 2s;
+        animation-fill-mode: forwards;
     }
     .childrenAdults{
         display: flex;
@@ -262,12 +252,13 @@ a.adultsCard:hover{
         overflow: hidden;
         background: url('img/marco-bianchetti.jpg')no-repeat center center;
         background-size: cover;
-        animation: bg-pan-tl 10s backwards;
         font-size: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        animation: bg-pan-tl 2s;
+        animation-fill-mode: forwards;
     }
     
     .systemCard{
@@ -275,12 +266,13 @@ a.adultsCard:hover{
         background: url('img/frenchSystem.jpg')no-repeat center center;
         background-size: cover;   
         cursor: pointer;
-        animation: bg-pan-tl 10s backwards;
         font-size: 2rem;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        animation: bg-pan-tl 2s;
+        animation-fill-mode: forwards;
     }
     .aArticleCard{
         color: white;
@@ -297,7 +289,15 @@ a.adultsCard:hover{
         margin: 20px;
         
     }
-
+    .methodesCard, .helpCard, .systemCard {
+        opacity: 0.9;
+        transition: transform .5s ease-in-out,
+                    opacity 0.5s ease-in-out;
+    }
+    .methodesCard:hover, .helpCard:hover, .systemCard:hover{
+        opacity: 1;
+        transform: scale(1.01);
+    }
 }
 
 

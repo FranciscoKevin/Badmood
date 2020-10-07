@@ -21,10 +21,8 @@
     <div class='imageCard'>
         <div class="textOnImage">
             <p class="presentation1">
-                Vous ou un de vos proches vous sentez stressé, mal dans votre peau, en proie à des troubles du comportement?
-            </p>
-            <p class="presentation2">
-                Nous sommes ici pour vous aider et vous rediriger vers un professionnel compétent.
+                vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement?</br>
+                Nous vous proposons des professionnels compétents vers qui vous tourner ainsi que les gestes à adopter.
             </p>
             <div class="mentionImgIndex">
                 <p class="mentionImg">

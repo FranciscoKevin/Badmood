@@ -43,9 +43,11 @@
     font-size: 22px;
     color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+    padding: 0.2em;
 }
 .presentation1 {
     text-align: center; 
@@ -53,16 +55,7 @@
     width: 75%; 
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    font-size: 30px;
-}
-.presentation2 {
-    text-align: center; 
-    height: 110%;
-    width: 100%; 
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
+    align-items: center;
     font-size: 30px;
 }
 

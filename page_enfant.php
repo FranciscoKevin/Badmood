@@ -16,12 +16,9 @@
 <body>
     <?php include("header.php")?>
         <main class="mainBox">
-            <section class="imageChild">
-                <div class="blockPhoto">
-                    <img src="./img/enfantTriste.jpg" alt="enfant, triste">
-                    <div class="mentionPhoto">
-                        <p class="mentionMessage">Image par PublicDomainPictures de Pixabay </p>
-                    </div>
+            <section class="imageChildTop">
+                <div class="mentionPhotoDebut">
+                    <p class="mentionMessage">Image par PublicDomainPictures de Pixabay </p>
                 </div>
             </section>
             <section class="mentalyCareChild">
@@ -31,27 +28,33 @@
                         <p>
                             Les symptômes suivants sont souvent révélateurs d'un mal-être, d'une inhibition 
                             des potentialités d'épanouissement ou d'un dysfonctionnement interpersonnel.
-                            <br><br>
+                            <br>
                             C'est pourquoi, il est utile de les entendre comme un signal d'alarme, comme les 
                             manifestations d'un besoin de changement ou/et d'aide. Il est possible d'agir et d'y remédier.
                         </p>
-                    </div><br>
+                    </div><br><br>
                     <div class="listeSignaux">
                         <p>
                             Exemple de signaux peuvant être observer :<br><br>
                             <ul>
-                                <li>Troubles du sommeil ou/et appétit</li>
-                                <li>Perte de contrôle de sphincters</li>
-                                <li>troubles de l'appétit avec ou sans nausées ou/et vomissements</li>
-                                <li>Changements de l'humeur</li>
-                                <li>Repli sur soi</li>
-                                <li>manque d'attention, de concentration, rêverie, avec ou 
+                                <li>- Troubles du sommeil ou/et appétit</li>
+                                <li>- Perte de contrôle de sphincters</li>
+                                <li>- troubles de l'appétit avec ou sans nausées ou/et vomissements</li>
+                                <li>- Changements de l'humeur</li>
+                                <li>- Repli sur soi</li>
+                                <li>- manque d'attention, de concentration, rêverie, avec ou 
                                 sans chute des résultats scolaires, perte des acquis antérieurs</li>
-                                <li>absence de confiance en soi</li>
-                                <li>manifestations psycho-somatiques</li>
+                                <li>- absence de confiance en soi</li>
+                                <li>-  manifestations psycho-somatiques</li>
                             </ul>
                         </p>
-                    </div><br>
+                    </div>
+                    <div class="listePetitEcran">
+                        <p>
+                            <a href="http://www.la-psychologie.com/signes-alarme-symptomes.htm">cliquez par ici</a>, 
+                            si vous désirez obtenir une liste non exhautive des signes de mal être.
+                        </p>
+                    </div><br><br>
                     <div>
                         <p>
                             Cependant il est important d'avoir en tête, que seule des professionnels de santé qualifiés 
@@ -80,12 +83,9 @@
                     <p>rendez-vous avec un psychiatre près de chez vous : <a href="https://www.doctolib.fr/psychiatre/antony-antony">cliquez ici</a></p>        
                 </div>
             </section>
-            <section class="imageChild"> <!-- photo fin de page-->
-                <div class="blockPhoto">
-                    <img src="./img/parentEnfantSoutien.jpg" alt="mère, enfant, ensemble">
-                    <div class="mentionPhoto">
-                        <p class ="mentionMessage">Image par 5540867 de Pixabay</p>
-                    </div>
+            <section class="imageChildBottom"> <!-- photo fin de page-->
+                <div class="mentionPhotoFin">
+                    <p class ="mentionMessage">Image par 5540867 de Pixabay</p>
                 </div>
             </section>
         <main>

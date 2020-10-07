@@ -19,20 +19,20 @@ body {
 }
 
  /* photos */
-.imageChildTop {
+.imageAdulteTriste {
     display: inline-flex;
     width: 100%;
     height:800px;
-    background-image: url('img/enfantTristeHD.jpg');
+    background-image: url('img/hommeMalheureuxHD.jpg');
     background-position: center;
     background-repeat: no-repeat;
     flex-direction: column-reverse;
     float: bottom right;
 }
 
-.imageChildBottom {
+.imageAdulteHopeness {
     display: inline-flex;
-    background-image: url('img/parentEnfantSoutienHD.jpg');
+    background-image: url('img/reconfortantHD.jpg');
     background-position: center;
     background-repeat: no-repeat;
     flex-direction: column-reverse;
@@ -42,14 +42,14 @@ body {
 }
 
 
-.mentionPhotoDebut {
+.imageAdulteTop {
     display: flex;
     margin-bottom: 0px;
     font-size: 10px;
     padding-left: 1em;
 }
 
-.mentionPhotoFin {
+.imageAdulteBottom {
     display: flex;
     margin-top: -1em;
     margin-bottom: 0px;
@@ -57,7 +57,7 @@ body {
     padding-left: 1em;
 }
 
-.mentionMessage {
+.mentionPhotoAdulte {
     width: 100%;
     height: 100%;
     color: blanchedalmond;
@@ -65,7 +65,7 @@ body {
 }
 
 /* section text */
-.mentalyCareChild {
+.mentalyCareAdulte {
     display: inline-flex;
     flex-direction: column;
     padding-left: 2em;
@@ -83,8 +83,32 @@ body {
     align-items: center;
     text-align: justify;
     padding: 1em;
-    margin: 1em;
-    width: 80%;
+    margin-top: 1em;
+    width: 90%;
+    border: solid;
+}
+
+.listeGrandEcran {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+    margin-top: 1em;
+    width: 90%;
+    border: solid;
+}
+
+.rappelSante {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+    margin-top: 1em;
+    width: 90%;
     border: solid;
 }
 
@@ -92,7 +116,7 @@ body {
     display: none;
 }
 
-.temoignageEnf {
+.temoignageAdulte {
     display: inline-block;
     flex-direction: column;
     justify-content: center;
@@ -100,10 +124,11 @@ body {
     text-align: center;
     width: 80%;
     padding: 1em;
+    margin-top: 1em;
     border: solid;
 }
 
-.rdvEnf {
+.rdvAdulte {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -111,6 +136,7 @@ body {
     width: 90%;
     border-top: double;
     padding: 1em;
+    margin-top: 1em;
     margin-bottom: 1em;
     border: solid black;
 }
@@ -121,27 +147,25 @@ body {
         display: inline-flex;
     }
 
-    .mentionPhoto {
-        width: 100%;
-    }
-
-    .mentionMessage {
+    .mentionMessageAdulte {
         text-align: center;
+        width: 100%;
     }
     
     /* section text */
-    .mentalyCareChild {
+    .mentalyCareAdulte {
         width: 100%;
+        padding: 1em;
     }
 
     .signalAlarm {
-        padding: 0em;
-        margin: 0em;
+        padding: 1em;
+        margin: 1em;
         margin-bottom: 1em;
         width: 100%;
     }
 
-    .listeSignaux {
+    .listeGrandEcran {
         display: none;
         border: solid red;
         width: 100%
@@ -149,6 +173,9 @@ body {
 
     .listePetitEcran {
         display: inline;
+        width: 100%;
+        border: solid;
+        margin-top: 1em;
     }
 
     .sectionListe{
@@ -159,10 +186,12 @@ body {
         padding-left: 1em;
     }
 
-    .temoignageEnf {
+    .temoignageAdulte {
         width: 100%;
+        margin: 1em;
     }
 
-    .rdvEnf {
+    .rdvAdulte {
         width: 100%;
+        margin: 1em;
     }

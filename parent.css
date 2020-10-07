@@ -1,0 +1,197 @@
+body {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: 100%;
+    margin: 0;
+}
+
+.mainBox {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+    border: solid blue;
+}
+
+ /* photos */
+.imageAdulteTriste {
+    display: inline-flex;
+    width: 100%;
+    height:800px;
+    background-image: url('img/hommeMalheureuxHD.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    float: bottom right;
+}
+
+.imageAdulteHopeness {
+    display: inline-flex;
+    background-image: url('img/reconfortantHD.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 800px;
+    float: bottom right;
+}
+
+
+.imageAdulteTop {
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 10px;
+    padding-left: 1em;
+}
+
+.imageAdulteBottom {
+    display: flex;
+    margin-top: -1em;
+    margin-bottom: 0px;
+    font-size: 10px;
+    padding-left: 1em;
+}
+
+.mentionPhotoAdulte {
+    width: 100%;
+    height: 100%;
+    color: blanchedalmond;
+    margin-bottom: 0px;
+}
+
+/* section text */
+.mentalyCareAdulte {
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    width: 90%;
+    border: solid violet;
+}
+
+.signalAlarm {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+    margin-top: 1em;
+    width: 90%;
+    border: solid;
+}
+
+.listeGrandEcran {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+    margin-top: 1em;
+    width: 90%;
+    border: solid;
+}
+
+.rappelSante {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+    margin-top: 1em;
+    width: 90%;
+    border: solid;
+}
+
+.listePetitEcran {
+    display: none;
+}
+
+.temoignageAdulte {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    padding: 1em;
+    margin-top: 1em;
+    border: solid;
+}
+
+.rdvAdulte {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 90%;
+    border-top: double;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: solid black;
+}
+
+/* Format écran */
+@media only screen and (max-width: 996px) {
+    .mainBox {
+        display: inline-flex;
+    }
+
+    .mentionMessageAdulte {
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* section text */
+    .mentalyCareAdulte {
+        width: 100%;
+        padding: 1em;
+    }
+
+    .signalAlarm {
+        padding: 1em;
+        margin: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    .listeGrandEcran {
+        display: none;
+        border: solid red;
+        width: 100%
+    }
+
+    .listePetitEcran {
+        display: inline;
+        width: 100%;
+        border: solid;
+        margin-top: 1em;
+    }
+
+    .sectionListe{
+        display: inline-flex;
+        flex-direction: column;
+        text-align: justify;
+        height: 300px;
+        padding-left: 1em;
+    }
+
+    .temoignageAdulte {
+        width: 100%;
+        margin: 1em;
+    }
+
+    .rdvAdulte {
+        width: 100%;
+        margin: 1em;
+    }

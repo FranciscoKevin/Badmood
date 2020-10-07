@@ -39,6 +39,7 @@ footer{
     width: 100%;
     padding-top: 70px;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 p.wildCodeSchool{
@@ -68,8 +69,10 @@ p.footer1{
     justify-content: center;
 }
 
-.footer1{
-
+.informationsFooter p a{
+    font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 5px;
 }
 
 .wcsCopyright{
@@ -82,6 +85,12 @@ p.footer1{
 }
 a.footerLink{
     color: white;
+}
+
+.footerLink:hover{
+  background: #2C3E50;
+  opacity: 0.8;
+  transition: .5s;
 }
 
 

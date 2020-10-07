@@ -70,7 +70,7 @@
             <div class='indexTitles'>
                 <h2 class="h2Title"><a href="page_infoSysteme.php" class="systemeLink">LE SYSTEME DE SANTE FRANCAIS</a></h2>
             </div>
-            <article class="methodes">
+            <article class="system">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nam laoreet felis vel eros convallis condimentum. Vestibulum nunc mauris, venenatis vel lobortis eget, scelerisque nec turpis. 

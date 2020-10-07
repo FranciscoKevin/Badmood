@@ -61,6 +61,8 @@ nav ul li a {
   background: #2C3E50;
   opacity: 0.8;
   transition: .5s;
+  text-decoration: none;
+  color: white;
 }
 
 

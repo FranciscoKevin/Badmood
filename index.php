@@ -16,10 +16,11 @@
     <?php include("header.php")?>
     <div class='imageCard'>
         <div class="textOnImage">
-            <p class="presentation">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nam laoreet felis vel eros convallis condimentum. Vestibulum nunc mauris, venenatis vel lobortis eget, scelerisque nec turpis. 
-                Vivamus pharetra vel diam placerat tempus.
+            <p class="presentation1">
+                Vous ou un de vos proches vous sentez stressé, mal dans votre peau, en proie à des troubles du comportement?
+            </p>
+            <p class="presentation2">
+                Nous sommes ici pour vous aider et vous rediriger vers un professionnel compétent.
             </p>
             <div class="mentionImgIndex">
                 <p class="mentionImg">

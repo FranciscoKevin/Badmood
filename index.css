@@ -49,13 +49,25 @@
     max-width: 100%;
     height: 100%;
 }
-.presentation{
+.presentation1 {
     text-align: center; 
     height: 100%;
     width: 100%; 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+    font-size: 30px;
+    margin-top: 4em;
+}
+.presentation2 {
+    text-align: center; 
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 30px;
+    margin-top: 1.5em;
 }
 .mentionImgIndex{
     height: 160px;

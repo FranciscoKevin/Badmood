@@ -67,7 +67,6 @@
                         rendez-vous avec un psychiatre.
                     </p>
             </div>
-            <br>
             <div class="psychoRemb">
                 <h4>En ce qui concerne le psychologue</h4>
                 <p>
@@ -78,17 +77,16 @@
                     <br>
                     Cependant il existe des solutions pour bénéficier de remboursement 
                     de votre séance chez votre psychologue.<br><br>
-                    <ul>
-                        <li>En se rendant dans un établissement public (hôpital)</li>
-                        <li>en se rendant dans un centre médico-Psychologique</li>
-                    </ul><br>
+                    
+                    En se rendant dans un établissement public (hôpital)
+                    En se rendant dans un centre médico-Psychologique
+                    <br>
                     Attention, seul votre médecin traitant peut vous adresser à ses proféssionnels 
                     pour obtenir un remboursement à 100 % par l'assurance maladie, mais le délai 
                     de rendez-vous peut être très long selon les régions.
                     <br>
                     Certaines mutuelles proposent un remboursement des rendez-vous chez le psychologue 
                     soit par forfait annuel ou par nombre de séances.
-                    <br>
                     <a href="https://www.aide-sociale.fr/psychologue-remboursement/">source</a>
                 </p>
             </div>

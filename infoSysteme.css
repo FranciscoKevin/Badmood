@@ -51,12 +51,13 @@ body {
 /* box contenu */
 .littleBody {
     display: inline-block;
+    background-color: lightcyan;
+    box-shadow: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 80%;
-    margin: -0.1em;
-    border: solid blue;
+    margin: 0em;
 }
 
 .introductionSysteme {
@@ -93,6 +94,7 @@ body {
 .diffPro {
     padding-top: 1em;
     margin: 1em;
+    margin-bottom: 0em;
     border: solid;
 }
 
@@ -104,7 +106,7 @@ body {
 .psychoRemb {
     text-align: justify;
     padding: 1em;
-    margin: 2em;
+    margin: 1em;
     border: solid coral;
 }
 

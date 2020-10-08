@@ -10,6 +10,7 @@
 
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
 </head>
@@ -63,5 +64,6 @@
         </div>
     </main>
         <?php include('footer.php');?>
+        <script src="script.js"></script>
 </body>
 </html>

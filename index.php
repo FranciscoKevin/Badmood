@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
         <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -63,5 +65,6 @@
             </div>
         </main>
             <?php include('footer.php');?>
+            <script src="script.js"></script>
     </body>
 </html>

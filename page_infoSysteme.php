@@ -97,5 +97,6 @@
         <p class="mentionPhotoSystemeBot">Image par silviarita de Pixabay</p>
     </section>
     <?php include("footer.php")?> 
+    <script src="script.js"></script>
 </body>
 </html>

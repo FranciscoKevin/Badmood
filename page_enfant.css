@@ -135,7 +135,7 @@ ul.listeTroubles {
 .element-5 {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-image: url('img/img-psychologue.jpg');
+    background-image: url('img/img-psychologue-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,6 +161,10 @@ ul.listeTroubles {
 .rdv {
     font-size: xxx-large;
     line-height: 2em;
+    color: black;
+}
+
+.rdv a:visited {
     color: black;
 }
 
@@ -193,86 +197,99 @@ ul.listeTroubles {
         grid-template-rows: minmax(50px, auto);
     }
 
-        .element-1 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-        
-        .element-2 {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-            align-items: center;
-            justify-content: center;
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-        
-        .element-2 iframe {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .element-2 p {
-            padding-top: 1em;
-            padding-bottom: 1em;
-            width: 100%;
-        }
-                
-        .element-3 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-        
-        .element-4 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            padding: 0;
-        }
+    .titleTrouble {
+        font-size: 3em;
+        margin-top: 1em;
+    } 
 
-        .element-5 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            background-image: url('img/img-psychologue.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 500px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .element-6 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            background-image: url('img/img-psychiatre.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 500px;
-            display: flex;
-            align-items: center;
-        }
+    .element-0 {
+        height: 0;
+        padding: 0;
+    }
 
-        .imageChild2 {
-            background-image: url('img/img-child-2.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 100%;
-            height: 500px;
-        }
+    .element-1 {
+        padding: 1em;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .element-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .element-2 iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .element-2 p {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+            
+    .element-3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 0;
+    }
+    
+    .element-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding: 0;
+    }
 
-        .imageChild {
-            width: 100%;
-            height: 500px;        
-        }
-        }
+    .element-5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url('img/img-psychologue-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .element-6 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url('img/img-psychiatre.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+
+    .imageChild2 {
+        background-image: url('img/img-child-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+    }
+
+    .imageChild {
+        width: 100%;
+        height: 500px;        
+    }
+    }
         
     }

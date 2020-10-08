@@ -54,7 +54,7 @@
                         </div>
                         <div class="videoText">
                             <p>Vous pouvez retrouver des témoignages de personne souffrantes de 
-                                troubles ou de leurs entourages <a href="https://fondationdouglas.qc.ca/temoignage/"><b>ici</b></a>.</p>
+                                troubles ou de leurs entourages <a target="_blank" href="https://fondationdouglas.qc.ca/temoignage/"><b>ici</b></a>.</p>
                         </div>
                     </div>
                     <div class="bloc element-3"> <!-- partie prise de rendez-vous-->

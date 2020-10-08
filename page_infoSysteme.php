@@ -5,7 +5,6 @@
     <title>BadMood - Le système de santé en France</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="#">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="infoSysteme.css">
     

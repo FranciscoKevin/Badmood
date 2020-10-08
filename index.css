@@ -1,12 +1,4 @@
-
 /* Image Part of Home Page*/
-.indexImage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:100%;
-    width: 150%;  
-}
 .imageCard{
     background-image: url('img/img-index.jpg');
     background-position: center center;
@@ -17,8 +9,8 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 560px;
-
+    height: 580px;
+    margin-top: 60px;
 }
 .textOnImage{
     font-size: 22px;
@@ -160,9 +152,30 @@ a.adultsCard:hover{
 
 
 @media only screen and (min-width: 640px){
-
-
+/* Under the header */
+    .imageCard{
+        background-image: url('img/img-index.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 870px;
+    }
+    .presentation1 {
+        text-align: center; 
+        height: 100%;
+        width: 75%; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 60px;
+    }
     /* Principal Cards of Home Page */
+    
     main{
         width: 100%;
     }

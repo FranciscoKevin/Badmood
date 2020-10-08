@@ -12,7 +12,11 @@
         <p class="footer"><a href="page_mentions_legales.php" class="footerLink">Mentions légales</a></p>
         <p class="footer"><a href="page_contact.php" class="footerLink">Contact</a></p>
     </div>
+            <div id="scroll_to_top">
+                <a href="#top"><img src="img/fleche.png" alt="Retourner en haut" title="Retourner en haut" /></a>
+            </div>
     <div class="wcsCopyright">
         <p class="wildCodeSchool">2020 - Développé par la Wild Code School. Tous droits réservés.</p>
     </div>          
 </footer>
+            

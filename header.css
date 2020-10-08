@@ -17,7 +17,7 @@ nav{
 }
 
 /*LOGO NAV*/
-label.logo{
+.logo{
   color: white;
   font-size: 30px;
   line-height: 80px;
@@ -130,7 +130,7 @@ body{
       font-size: 20px;
     }
 
-    label.logo{
+    .logo{
       margin-left: 30px; 
     }
 

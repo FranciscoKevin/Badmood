@@ -1,15 +1,4 @@
-/*Import minimista*/
 
-/* Background slide */
-  @keyframes bg-pan-tl {
-    
-    from {
-      background-position: 100% 100%;
-    }
-    to {
-      background-position: 80% 80%;
-    }
-  } 
 /* Image Part of Home Page*/
 .indexImage{
     display: flex;
@@ -234,7 +223,6 @@ a.adultsCard:hover{
         background-size: cover;
         color: white;
         font-size: 2rem;
-        animation: bg-pan-tl 2s;
         animation-fill-mode: forwards;
     }
     .childrenAdults{
@@ -257,7 +245,6 @@ a.adultsCard:hover{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        animation: bg-pan-tl 2s;
         animation-fill-mode: forwards;
     }
     
@@ -271,7 +258,6 @@ a.adultsCard:hover{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        animation: bg-pan-tl 2s;
         animation-fill-mode: forwards;
     }
     .aArticleCard{

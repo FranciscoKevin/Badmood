@@ -39,10 +39,10 @@
                     Témoignages, articles <br> et professionnels de santé 
                 </p>
                 <div class="childrenAdults">
-                    <a class="childrenCard" target=”_blank” href="page_enfant.php">
+                    <a class="childrenCard" href="page_enfant.php">
                         Enfants
                     </a>
-                    <a class="adultsCard" target=”_blank” href="page_adulte.php">
+                    <a class="adultsCard"  href="page_adulte.php">
                         Adultes
                     </a>
                 </div>
@@ -56,7 +56,7 @@
             </div>
             <div class="systemCard">
                 <h2 class="h2Title">LE SYSTEME DE SANTE FRANCAIS</h2>
-                <a class="aArticleCard" target=”_blank” href="page_infoSysteme.php">
+                <a class="aArticleCard" href="page_infoSysteme.php">
                     Prise en charge, assurance maladie, <br> divers praticiens
                 </a>
             </div>

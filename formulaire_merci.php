@@ -20,7 +20,8 @@
                 <p>Cette fenêtre se fermera automatiquement dans quelques secondes.</p>
             </div>
         </main>
-        <?php include("footer.php")?>    
+        <?php include("footer.php")?> 
+        <script src="script.js"></script>  
     <script type="text/javascript">
     var delai=4; // Delai en secondes
     var url='index.php'; // Url de destination

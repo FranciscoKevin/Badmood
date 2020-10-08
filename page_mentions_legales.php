@@ -49,5 +49,6 @@
         <p><em><a href="http://webexpress.fr" data-wpel-link="internal">Mentions légales fournies par WebExpress – Version 1.5</a> – Utilisation libre sous <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/" data-wpel-link="external" target="_new" rel="external noopener noreferrer" class="ext-link wpel-icon-right">Licence Creative Commons CC BY-NC-ND 3.0 FR / creativecommons.org<span class="wpel-icon wpel-image wpel-icon-4"></span></a>.</em></p>
         </div>
         <?php include('footer.php');?>
+        <script src="script.js"></script>
     </body>
 </html>

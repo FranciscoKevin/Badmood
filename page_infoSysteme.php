@@ -18,7 +18,7 @@
 <body>
     <?php include("header.php")?>
     <section class="photoSystemeTop">
-            <p class="mentionPhotoSysteme">Image par Bethany Drouin de Pixabay</p>
+            <p class="mentionPhotoSystemeTop">Image par Bethany Drouin de Pixabay</p>
     </section>
     <main class="littleBody">
         <section class="introductionSysteme">
@@ -77,11 +77,11 @@
                     les praticiens, les spécialités et les villes.
                     <br>
                     Cependant il existe des solutions pour bénéficier de remboursement 
-                    de votre séance chez votre psychologue.
+                    de votre séance chez votre psychologue.<br><br>
                     <ul>
                         <li>En se rendant dans un établissement public (hôpital)</li>
                         <li>en se rendant dans un centre médico-Psychologique</li>
-                    </ul>
+                    </ul><br>
                     Attention, seul votre médecin traitant peut vous adresser à ses proféssionnels 
                     pour obtenir un remboursement à 100 % par l'assurance maladie, mais le délai 
                     de rendez-vous peut être très long selon les régions.
@@ -94,6 +94,10 @@
             </div>
             <a href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">Pour en avoir plus sur le systeme des soins</a>
         </section>
-        <?php include("footer.php")?> 
-    </body>
+    </main>
+    <section class="photoSystemeBot">
+        <p class="mentionPhotoSystemeBot">Image par silviarita de Pixabay</p>
+    </section>
+    <?php include("footer.php")?> 
+</body>
 </html>

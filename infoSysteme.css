@@ -15,17 +15,36 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: right;
-    align-items: flex-end;
+    justify-content: center;
     width: 100%;
     height: 500px;
 }
 
-.mentionPhotoSysteme {
+.photoSystemeBot {
+    background-image: url('./img/aventureNouvelle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.mentionPhotoSystemeTop {
     width: 100%;
     height: 100%;
-    color: blanchedalmond;
-    margin-bottom: 0px;
+    color: whitesmoke;
+    margin-top: 450px;
+    font-size: 10px;
+}
+
+.mentionPhotoSystemeBot {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-top: 450px;
     font-size: 10px;
 }
 
@@ -36,7 +55,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
-    margin: 1em;
+    margin: -0.1em;
     border: solid blue;
 }
 
@@ -84,6 +103,7 @@ body {
 
 .psychoRemb {
     text-align: justify;
+    padding: 1em;
     margin: 2em;
     border: solid coral;
 }

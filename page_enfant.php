@@ -59,7 +59,7 @@
                         gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                         </div>
-                        <div class="videoText">
+                        <div class="videoText"><br>
                             <p>Vous pouvez retrouver des témoignages de personne souffrantes de troubles ou de 
                                 leurs entourages <a href="https://fondationdouglas.qc.ca/temoignage/"><b>ici</b></a>.</p>
                         </div>  

@@ -30,7 +30,7 @@
     </div>
         <div class="gridMain">
             <div class='ytFrameCard'>
-                <iframe id="ytplayer" type="text/html" width="640" height="360" frameborder="0"
+                <iframe id="ytplayer"
                         src="https://www.youtube.com/embed/0Yr4hyFSJPk?autoplay=0&mute=1&controls=2&origin=http://example.com">
                 </iframe>
             </div>

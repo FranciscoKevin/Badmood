@@ -1,0 +1,129 @@
+body {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+
+}
+/* Photo haut */
+.photoSystemeTop {
+    background-image: url('./img/systemeSante.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.photoSystemeBot {
+    background-image: url('./img/aventureNouvelle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+}
+
+.mentionPhotoSystemeTop {
+    width: 100%;
+    height: 100%;
+    color: whitesmoke;
+    margin-top: 450px;
+    font-size: 10px;
+}
+
+.mentionPhotoSystemeBot {
+    width: 100%;
+    height: 100%;
+    color: white;
+    margin-top: 450px;
+    font-size: 10px;
+}
+
+/* box contenu */
+.littleBody {
+    display: inline-block;
+    background-color: lightcyan;
+    box-shadow: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0em;
+}
+
+.introductionSysteme {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 1em;
+    border: solid yellow;
+}
+
+.intro {
+    text-align: justify;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.titreIntro {
+    justify-content: center;
+    text-align: center;
+    margin: 1em;
+    width: 100%;
+}
+
+.listIntro {
+    display: inline-block;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.diffPro {
+    padding-top: 1em;
+    margin: 1em;
+    margin-bottom: 0em;
+    border: solid;
+}
+
+.psychiaRemb {
+    margin: 1em;
+    border: solid blueviolet;
+}
+
+.psychoRemb {
+    text-align: justify;
+    padding: 1em;
+    margin: 1em;
+    border: solid coral;
+}
+
+/* Format écran */
+@media (max-width: 800px) {
+    .littleBody {
+        width: 100%;
+        margin: 0em;
+    }
+
+    .introductionSysteme {
+        width: 100%;
+        margin: 0em;
+    }
+
+    .diffPro {
+        width: 100%;
+        margin: 0em;
+    }
+}

@@ -9,7 +9,8 @@
     justify-content: center;
     flex-direction: column;
     width: 100%;
-    height: 580px ;
+    height: 580px;
+    margin-top: 60px;
 }
 .textOnImage{
     font-size: 22px;

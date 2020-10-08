@@ -1,7 +1,7 @@
  
  			<!-- NAVIGATION-->
   
-  <nav>
+  <nav id="nav-bar">
     <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
       <i class="fas fa-bars"></i>  		<!-- icone menu dans un bouton checkbox-->

@@ -1,5 +1,3 @@
-
-
 .mainBox {
     display: flex;
     flex-direction: column;
@@ -21,6 +19,7 @@
     align-items: flex-end;
     width: 100%;
     height: 500px;
+    margin-top: 50px;
 }
 
 .imageChild2 {

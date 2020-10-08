@@ -58,15 +58,16 @@
            <h2>Le système de remboursement</h2>
             <div class="psychiaRemb">
                 <h4>Pour le psychiatre</h4>
-                <p>
-                    La consultation chez un psychiatre est prise en charge à 70% par l'assurance maladie, notamment grâce 
-                    à son titre de médecin. Le reste à charge est prise par votre mutuelle.
-                    <br>
-                    Toutefois, le patient devra suivre le parcours de soins 
-                    "classique". C'est-à-dire, passer d’abord par son médecin traitant avant de prendre 
-                    rendez-vous avec un psychiatre.
-                </p>
+                    <p>
+                        La consultation chez un psychiatre est prise en charge à 70% par l'assurance maladie, notamment grâce 
+                        à son titre de médecin. Le reste à charge est prise par votre mutuelle.
+                        <br>
+                        Toutefois, le patient devra suivre le parcours de soins 
+                        "classique". C'est-à-dire, passer d’abord par son médecin traitant avant de prendre 
+                        rendez-vous avec un psychiatre.
+                    </p>
             </div>
+            <br>
             <div class="psychoRemb">
                 <h4>En ce qui concerne le psychologue</h4>
                 <p>
@@ -77,20 +78,22 @@
                     <br>
                     Cependant il existe des solutions pour bénéficier de remboursement 
                     de votre séance chez votre psychologue.
-                    <br>En se rendant dans un établissement public (hôpital)
-                    <br>En se rendant dans un centre médico-Psychologique<br>
+                    <ul>
+                        <li>En se rendant dans un établissement public (hôpital)</li>
+                        <li>en se rendant dans un centre médico-Psychologique</li>
+                    </ul>
                     Attention, seul votre médecin traitant peut vous adresser à ses proféssionnels 
                     pour obtenir un remboursement à 100 % par l'assurance maladie, mais le délai 
                     de rendez-vous peut être très long selon les régions.
                     <br>
                     Certaines mutuelles proposent un remboursement des rendez-vous chez le psychologue 
                     soit par forfait annuel ou par nombre de séances.
+                    <br>
                     <a href="https://www.aide-sociale.fr/psychologue-remboursement/">source</a>
                 </p>
             </div>
-            <a href="https://www.aide-sociale.fr/psychologue-remboursement/">Pour en avoir plus sur le systeme des soins</a>
+            <a href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">Pour en avoir plus sur le systeme des soins</a>
         </section>
-    </main>
-    <?php include("footer.php")?>
+        <?php include("footer.php")?> 
     </body>
 </html>

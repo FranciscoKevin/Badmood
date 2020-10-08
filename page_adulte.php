@@ -27,10 +27,11 @@
                             des potentialités d'épanouissement ou d'un dysfonctionnement interpersonnel.
                             <br><br>
                             C'est pourquoi, il est utile de les entendre comme un signal d'alarme, comme les 
-                            manifestations d'un besoin de changement ou/et d'aide. Il est possible d'agir et d'y remédier.
+                            manifestations d'un besoin de changement ou/et d'aide. Il est possible d'agir et d'y remédier.<br><br>
                         </p>
                         <p>
                             Le mal être peut s'exprimer de façon très différentes selon les personnes. Cependant voici les "grandes lignes" qui peuvent être un bonne indice :
+                                <br><br>
                                 <li>mal être physique (fatigue, atonie ou maladies...)</li>
                                 <li>mal-être émotionnel (susceptibilité, manque d'estime de soi, anxiété, difficulté à gérer sa colère)</li>
                                 <li>mal-être social : travail, relations familiales, sociales... </li>
@@ -38,7 +39,7 @@
                             Cependant il est important d'avoir en tête, que seule des professionnels de santé qualifiés 
                             peuvent construire un portait mental de la personne suite à de nombreuses séances.
                             <br>
-                            Votre mal être n'est pas une fatalité ! <br>
+                            Votre mal être n'est pas une fatalité ! <br><br>
                             <b>Martellons-le, il est possible d'agir et d'y remédier.</b> 
                         </p>
                         </div>
@@ -61,9 +62,9 @@
                             d'en parler à votre médicin qui pourra vous orienter vers les professionnels les plus adaptés pour votre problème.
                         </p>
                         <br><br>
-                        <p>vous pouvez aussi vous référer à notre page <a>professionnels de santé</a> pour trouver la personne la plus adapté à vos soucis<br><br></p>
-                        <p class="rdv">rendez-vous avec un psychologue près de chez vous : <a href="https://www.doctolib.fr/psychologue/antony-antony">cliquez ici</a><br><br></p>
-                        <p class="rdv">rendez-vous avec un psychiatre près de chez vous : <a href="https://www.doctolib.fr/psychiatre/antony-antony">cliquez ici</a></p>        
+                        <p>Vous pouvez aussi vous référer à notre page <a>professionnels de santé</a> pour trouver la personne la plus adaptée à vos soucis:<br><br></p>
+                        <p class="rdv">Rendez-vous avec un psychologue près de chez vous : <a href="https://www.doctolib.fr/psychologue/antony-antony">cliquez ici</a><br><br></p>
+                        <p class="rdv">Rendez-vous avec un psychiatre près de chez vous : <a href="https://www.doctolib.fr/psychiatre/antony-antony">cliquez ici</a></p>        
                     </div>
                     <div class=" imageAdult2 bloc element-4"> <!-- photo fin de page-->
                         <p class="mentionPhotoAdulte">Image par Алина Осипова de Pixabay</p>

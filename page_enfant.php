@@ -31,7 +31,7 @@
                             manifestations d'un besoin de changement ou/et d'aide. Il est possible d'agir et d'y remédier.<br><br>
                         </p>
                             Exemple de signaux peuvant être observés :
-                            <div>
+                            <div><br>
                                 <ul class="listeTroubles">
                                     <li>Troubles du sommeil ou/et appétit</li>
                                     <li>Perte de contrôle de sphincters</li>
@@ -70,9 +70,9 @@
                             d'en parler à votre médicin qui pourra vous orienter vers les professionnels les plus adaptés pour votre problème.
                         </p>
                         <br><br>
-                        <p>vous pouvez aussi vous référer aux pages suivantes pour trouver un professionnel de santé et trouver la personne la plus adapté à vos soucis:<br><br></p>
-                        <p class="rdv">rendez-vous avec <a target="blank" href="https://www.doctolib.fr/psychologue/antony-antony">un psychologue près de chez vous.</a><br><br></p>
-                        <p class="rdv">rendez-vous avec <a target="blank" href="https://www.doctolib.fr/psychiatre/antony-antony">un psychiatre près de chez vous.</a></p>        
+                        <p>Vous pouvez aussi vous référer aux pages suivantes pour trouver un professionnel de santé et trouver la personne la plus adapté à vos soucis:<br><br></p>
+                        <p class="rdv">Rendez-vous avec <a target="blank" href="https://www.doctolib.fr/psychologue/antony-antony">un psychologue près de chez vous.</a><br><br></p>
+                        <p class="rdv">Rendez-vous avec <a target="blank" href="https://www.doctolib.fr/psychiatre/antony-antony">un psychiatre près de chez vous.</a></p>        
                     </div>
                     <div class="imageChild2 bloc element-4"> <!-- photo fin de page-->
                         <div class="mentionMessage">

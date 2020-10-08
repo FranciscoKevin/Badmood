@@ -79,7 +79,7 @@
                         <a href="https://www.aide-sociale.fr/psychologue-remboursement/">source</a>
                     </p>
                 </div>
-                <a href="https://www.aide-sociale.fr/psychologue-remboursement/">Pour en avoir plus sur le systeme des soins</a>
+                <a href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">Pour en avoir plus sur le systeme des soins</a>
             </section>
         <?php include("footer.php")?> 
     </body>

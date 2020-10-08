@@ -114,7 +114,7 @@
                             de rendez-vous peut être très long selon les régions.
                             <br>
                             Certaines mutuelles proposent un remboursement des rendez-vous chez le psychologue 
-                            soit par forfait annuel ou par nombre de séances.
+                            soit par forfait annuel ou par nombre de séances.<br>
                             <a href="https://www.aide-sociale.fr/psychologue-remboursement/">source</a>
                         </p>
                         <a href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">Pour en avoir plus sur le systeme des soins</a>

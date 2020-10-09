@@ -18,7 +18,7 @@
     <?php include("header.php")?>
         <main class="mainBox">
             <div class="imageChild">
-                <h1 class="titleTrouble">Les Troubles chez les enfants</h1>
+                <h1 class="titleTrouble">Les troubles chez les enfants</h1>
                 <p class="mentionMessage">Image par PublicDomainPictures de Pixabay</p>
             </div>
                 <section class="blocContainerMentalyCareChild">

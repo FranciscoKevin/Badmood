@@ -20,7 +20,7 @@
             <div>
                 <h2>Identité</h2>
                 <p>Nom du site web : BadMood<br>
-                Adresse : <a href="http://webexpress.fr" data-wpel-link="internal">http://BadMood.fr</a><br>
+                Adresse : <a href="http://webexpress.fr" data-wpel-link="internal">badmood.fr</a><br>
                 Propriétaire : Wild Code School<br>
                 Responsable de publication : Morgane, Florian, Kevin F. et Kevin R.<br>
                 Conception et réalisation : Morgane, Florian, Kevin F. et Kevin R.<br>

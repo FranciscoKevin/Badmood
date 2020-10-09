@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>BadMood</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="footer.css">
         <link rel="stylesheet" href="header.css">
@@ -21,7 +20,7 @@
         <div class='imageCard'>
             <div class="textOnImage">
                 <p class="presentation1">
-                    vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement?<br>
+                    Vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement ?<br>
                     Nous vous proposons des professionnels compétents vers qui vous tourner ainsi que les gestes à adopter.
                 </p>
                 <p class="mentionImg">

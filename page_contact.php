@@ -36,7 +36,8 @@
                             <input type="email" name="email" id="email" required placeholder="Votre email">
                         </div>
                         <div class="formulaire">
-                            <textarea class="textareastyle" name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard" placeholder=" Votre message"></textarea>
+                            <textarea class="textareastyle" name="message" id="message" cols="50" rows="20" required spellcheck="true" 
+                            wrap="hard" resize=both placeholder=" Votre message"></textarea>
                         </div>
                         <div class="sendButton">
                             <input class="button" type="submit" value="Envoyer">

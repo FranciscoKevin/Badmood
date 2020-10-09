@@ -70,6 +70,10 @@ input,textarea {
         font-size: 1em;
     }
 
+    .formulaireSection {
+        padding-top: 20px;
+    }
+
     fieldset {
         border-style: solid;
         border-radius: 8px;
@@ -116,6 +120,8 @@ form div {
     border-radius: 3px;
     box-shadow: 0 0 0 1px lightgrey;
     border: 1px solid transparent;
+    resize: vertical;
+    max-height: 200px;
 }
 
 .quiSommesNousContainer {

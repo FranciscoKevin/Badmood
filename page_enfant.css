@@ -171,7 +171,7 @@ ul.listeTroubles {
     transform: scale(1.01);
 }
 
-.rdv {
+.rdv a{
     font-size: xxx-large;
     line-height: 2em;
     color: black;

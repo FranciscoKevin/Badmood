@@ -77,10 +77,10 @@
                         <p>Vous pouvez aussi vous référer à notre page <a>professionnels de santé</a> pour trouver la personne la plus adaptée à vos soucis:</p>
                     </div>
                     <div class="bloc element-5">
-                        <p class="rdv"><a target="_blank" href="https://www.doctolib.fr/psychologue/antony-antony">Rendez-vous avec un psychologue près de chez vous.</a></p>
+                        <a class="rdv" target="_blank" href="https://www.doctolib.fr/psychologue/antony-antony">Rendez-vous avec un psychologue près de chez vous.</a>
                     </div>
                     <div class="bloc element-6">
-                        <p class="rdv"><a target="_blank" href="https://www.doctolib.fr/psychiatre/antony-antony">Rendez-vous avec un psychiatre près de chez vous.</a></p>        
+                        <a class="rdv" target="_blank" href="https://www.doctolib.fr/psychiatre/antony-antony">Rendez-vous avec un psychiatre près de chez vous.</a>        
                     </div>
                     <div class="imageChild2 bloc element-4"> <!-- photo fin de page-->
                         <div class="mentionMessage">

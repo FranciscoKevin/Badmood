@@ -179,7 +179,7 @@ body{
         margin: 0em;
     }
 
-    ..blocMasterGrid {
+    .blocMasterGrid {
         grid-template-columns: 1fr;
     }
     

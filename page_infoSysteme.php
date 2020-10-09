@@ -18,7 +18,8 @@
 <body>
     <?php include("header.php")?>
     <section class="photoSystemeTop">
-            <p class="mentionPhotoSystemeTop">Image par Bethany Drouin de Pixabay</p>
+        <h1 class="titleSysteme">Le système de santé</h1>
+        <p class="mentionPhotoSystemeTop">Image par Bethany Drouin de Pixabay</p>
     </section>
     <main class="littleBody">
         <div class="introductionSysteme">

@@ -1,12 +1,4 @@
-body {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100%;
 
-}
 /* Photo haut */
 .photoSystemeTop {
     background-image: url('./img/systemeSante.jpg');

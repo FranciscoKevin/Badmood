@@ -17,10 +17,11 @@
     <?php include("header.php")?>
         <main class="mainBox">
             <div class="imageChild">
+                <h1 class="titleTrouble">Les Troubles chez les enfants</h1>
                 <p class="mentionMessage">Image par PublicDomainPictures de Pixabay</p>
             </div>
                 <section class="blocContainerMentalyCareChild">
-                    <div class="bloc element-0"><h1>Les Troubles chez les enfants</h1></div>
+                    <div class="bloc element-0"></div>
                     <div class="bloc element-1">
                     <div class="liste"><p>
                         <p>
@@ -61,18 +62,24 @@
                         </div>
                         <div class="videoText"><br>
                             <p>Vous pouvez retrouver des témoignages de personne souffrantes de troubles ou de 
-                                leurs entourages <a href="https://fondationdouglas.qc.ca/temoignage/"><b>ici</b></a>.</p>
+                                leurs entourages <a href="https://fondationdouglas.qc.ca/temoignage/" target="_blank"><b>ici</b></a>.</p>
                         </div>  
                     </div>     
                     <div class="bloc element-3"> <!-- partie prise de rendez-vous-->
                         <p>
-                            Si vous souhaitez prendre rendez-vous avec des professionnels de santé pour commencer à aller mieux. Nous vous conseillons 
-                            d'en parler à votre médicin qui pourra vous orienter vers les professionnels les plus adaptés pour votre problème.
+                        <p>
+                            Vous souhaitez prendre rendez-vous avec des professionnels de santé pour commencer à aller mieux? 
                         </p>
-                        <br><br>
-                        <p>Vous pouvez aussi vous référer aux pages suivantes pour trouver un professionnel de santé et trouver la personne la plus adapté à vos soucis:<br><br></p>
-                        <p class="rdv">Rendez-vous avec <a target="blank" href="https://www.doctolib.fr/psychologue/antony-antony">un psychologue près de chez vous.</a><br><br></p>
-                        <p class="rdv">Rendez-vous avec <a target="blank" href="https://www.doctolib.fr/psychiatre/antony-antony">un psychiatre près de chez vous.</a></p>        
+                        <p>
+                            Nous vous conseillons d'en parler à votre médecin qui pourra vous orienter vers les professionnels les plus adaptés pour votre problème.
+                        </p>
+                        <p>Vous pouvez aussi vous référer à notre page <a>professionnels de santé</a> pour trouver la personne la plus adaptée à vos soucis:</p>
+                    </div>
+                    <div class="bloc element-5">
+                        <p class="rdv"><a target="_blank" href="https://www.doctolib.fr/psychologue/antony-antony">Rendez-vous avec un psychologue près de chez vous.</a></p>
+                    </div>
+                    <div class="bloc element-6">
+                        <p class="rdv"><a target="_blank" href="https://www.doctolib.fr/psychiatre/antony-antony">Rendez-vous avec un psychiatre près de chez vous.</a></p>        
                     </div>
                     <div class="imageChild2 bloc element-4"> <!-- photo fin de page-->
                         <div class="mentionMessage">

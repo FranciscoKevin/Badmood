@@ -16,12 +16,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
     width: 100%;
-    height: 600px;
-    margin-top: 60px;
+    height: 834px;
+    display: grid;
 }
 
 .imageAdult2 {
@@ -35,10 +32,12 @@
     width: 100%;
     height: 500px;
 }
+
 .mentionMessage {
     color: blanchedalmond;
-    margin-bottom: 0px;
     font-size: 10px;
+    align-self: end;
+    justify-self: end;
 }
 
 .mentionPhotoAdulte{
@@ -48,14 +47,21 @@
 }
 
 /* section text */
-h1 {
-    font-size: xx-large;
-}
+
+.titleTrouble {
+    font-size: 5em;
+    line-height: 2em;
+    color: white;
+    width: 100%;
+    padding: 50px 50px 0 0;
+    text-align: right;
+}  
 
 .liste{
     padding: 0.3em;
     list-style: circle;
     height: 100%;
+    list-style-position: inside;
 }
 
 .rdv {
@@ -74,20 +80,23 @@ h1 {
 
 .bloc {
     padding: 1em;
-    background-color: rgb(247, 247, 247);
     line-height: 1.2em;
+    font-size: large;
 }
 
 .element-0 {
+    height: 150px;
     grid-column-start: 1;
     grid-column-end: 3;
-    margin-top: 3px;
 }
 
 .element-1 {
+    display: flex;
+    flex-direction: column;
     grid-column-start: 1;
     grid-column-end: 2;
     text-align: justify;
+    padding: 0 3em 2em 2em;
 }
 
 .element-2 {
@@ -99,13 +108,14 @@ h1 {
 }
 
 .video {
-    height: 350px;
+    height: 90%;
     width: 100%;
 }
 
 .videoText {
     text-align: center;
     width: 100%;
+    margin-top: 2%;
 }
 
 .element-2 iframe {
@@ -118,8 +128,13 @@ h1 {
 }
 
 .element-3 {
+    text-align: justify;
     grid-column-start: 1;
     grid-column-end: 3;
+    margin-top: 2em;
+    line-height: 2em;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .element-4 {
@@ -127,6 +142,42 @@ h1 {
     grid-column-end: 3;
     background-position: 0 20%;
     padding: 0;
+}
+
+.element-5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url('img/img-psychologue-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.element-6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url('img/img-psychiatre.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.rdv {
+    font-size: xxx-large;
+    line-height: 2em;
+    color: black;
+}
+
+.rdv a:visited {
+    color: black;
 }
 
 
@@ -157,62 +208,101 @@ h1 {
         grid-template-rows: minmax(50px, auto);
     }
 
-        .element-0 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            margin-top: 2px;
-        }
-        
-        .element-1 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-        
-        .element-2 {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-            align-items: center;
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-        
-        .element-2 iframe {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .element-2 p {
-            padding-top: 1em;
-            padding-bottom: 1em;
-            width: 100%;
-        }
-        
-        .element-3 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-        }
-        
-        .element-4 {
-            grid-column-start: 1;
-            grid-column-end: 2;
-            padding: 0;
-        }
+    .titleTrouble {
+        font-size: 3em;
+        margin-top: 1em;
+    } 
 
-        .imageAdult2 {
-            background-image: url('img/img-adult-2.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            display: flex;
-            justify-content: right;
-            align-items: flex-end;
-            width: 100%;
-            height: 500px;
-        }
-        
+    .element-0 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        height: 0;
+        padding: 0;
+    }
+    
+    .element-1 {
+        padding: 1em;
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .element-2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    .element-2 iframe {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .element-2 p {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+    
+    .element-3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin: 0;
+    }
+    
+    .element-4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding: 0;
+    }
+
+    .element-5 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url('img/img-psychologue-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .element-6 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        background-image: url('img/img-psychiatre.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+
+    .imageAdult2 {
+        background-image: url('img/img-adult-2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+        width: 100%;
+        height: 500px;
+    }
+    .imageAdult {
+        width: 100%;
+        height: 500px;        
+    }
+    
     }

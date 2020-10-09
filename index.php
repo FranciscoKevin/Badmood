@@ -21,7 +21,7 @@
         <div class='imageCard'>
             <div class="textOnImage">
                 <p class="presentation1">
-                    vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement?<br>
+                    Vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement ?<br>
                     Nous vous proposons des professionnels compétents vers qui vous tourner ainsi que les gestes à adopter.
                 </p>
                 <p class="mentionImg">

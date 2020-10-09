@@ -1,3 +1,8 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
 /* Image Part of Home Page*/
 .imageCard{
     background-image: url('img/img-index.jpg');

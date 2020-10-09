@@ -18,7 +18,7 @@
 <?php include("header.php")?>
     <main class="mainBox">
         <div class="imageAdult"> <!-- photo début page -->
-            <h1 class="titleTrouble">Les Troubles chez les adultes</h1>
+            <h1 class="titleTrouble">Les troubles chez les adultes</h1>
             <p class="mentionMessage">Image par PDPics de Pixabay</p>
         </div>
             <section class="blocContainerMentalyCareAdult"> <!-- repèrer "symptôme"-->

@@ -55,7 +55,7 @@
                     </a>
                 </div>
                 <div class="systemCard">
-                    <h2 class="h2Title">LE SYSTEME DE SANTE FRANCAIS</h2>
+                    <h2 class="h2Title">LE SYSTEME DE SANTE FRANÇAIS</h2>
                     <a class="aArticleCard" href="page_infoSysteme.php">
                         Prise en charge, assurance maladie, <br> divers praticiens
                     </a>

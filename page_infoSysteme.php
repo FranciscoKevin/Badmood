@@ -18,7 +18,7 @@
 <body>
     <?php include("header.php")?>
     <section class="photoSystemeTop">
-        <h1 class="titleSysteme">Le système de santé</h1>
+        <h1 class="titleSysteme">Le système de santé français</h1>
         <p class="mentionPhotoSystemeTop">Image par Bethany Drouin de Pixabay</p>
     </section>
     <main class="littleBody">
@@ -106,9 +106,9 @@
             </p>
         </div>
         <div class="sourceInfoSysteme">
-            <a traget="_blank" href="https://www.aide-sociale.fr/psychologue-remboursement/">
-            source</a><br>
-            <a traget="_blank" href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">
+            <a target="_blank" href="https://www.aide-sociale.fr/psychologue-remboursement/">
+            source pour le remboursement</a><br>
+            <a target="_blank" href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">
             Pour en avoir plus sur le systeme des soins</a>
         </div>
     </main>

@@ -217,4 +217,8 @@ body{
         padding-bottom: 1em;
         margin-bottom: 0em;
     }
+
+    .titleSysteme {
+        font-size: 3em;
+    }
 }

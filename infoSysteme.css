@@ -53,6 +53,7 @@ body{
     align-items: center;
     width: 80%;
     margin: 0em;
+    font-size: large;
 }
 
 .introductionSysteme {
@@ -111,8 +112,10 @@ body{
     margin: 0.3em;
     padding: 1em;
     line-height: 1.2em;
+    font-size: large;
 }
 
+/* introduction */
 .elementGrid1 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -122,7 +125,9 @@ body{
     margin-left: 1em;
 }
 
+/* Les grands axes */
 .elementGrid2 {
+    line-height: 2em;
     grid-column: 1;
     grid-row: 2;
     text-align: center;
@@ -138,9 +143,11 @@ body{
     margin-bottom: 1em;
 }
 
+/* particients */
 .elementGrid4 {
     grid-column: 2;
     grid-row: 2;
+    padding-top: 5em;
 }
 
 .elementGrid5 {

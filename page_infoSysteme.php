@@ -25,7 +25,7 @@
             <div class="blocMasterGrid">
                 <div class="bloc elementGrid1">
                     <p>
-                        En France le systeme de santé à pas mal évolué depuis 
+                        En France le systeme de santé a pas mal évolué depuis 
                         ces dernières années.<br>La ministre des Solidarités et 
                         de la Santé à apporté des changements en 2018 dont l'enjeu 
                         est d’améliorer les conditions de vie, l’accès aux soins et 
@@ -56,8 +56,8 @@
                         pourrait avoir un impact positif.
                         <br><br>
                         Contrairement au psychologue qui n'a pas 
-                        le titre de médecin, car il a suivi un parcours universitaire
-                        Ne peut pas préscrire de médicaments.<br>
+                        le titre de médecin car il a suivi un parcours universitaire,
+                        le psychologue ne peut pas prescrire de médicaments.<br>
                         Il accompagne et aide le patient à identifier les raisons de 
                         sa souffrance et à trouver des solutions pour y remédier.
                     </p><br>
@@ -85,18 +85,18 @@
         </div>
         <div class="psychoRemb">
             <p>
-                Comme les psychologues n'ont pas de titre de médecin. 
-                L'assurance maladie ne prendra pas en chage les consultations.<br>
+                Comme les psychologues n'ont pas de titre de médecin, 
+                l'assurance maladie ne prendra pas en chage les consultations.<br>
                 Sachant qu'une consultation coûte entre 40 et 120 euro selon 
                 les praticiens, les spécialités et les villes.
                 <br>
                 Cependant il existe des solutions pour bénéficier de remboursement 
-                de votre séance chez votre psychologue.
-                <br><br>
-                En se rendant dans un établissement public (hôpital)
-                En se rendant dans un centre médico-Psychologique
+                de votre séance chez votre psychologue :
                 <br>
-                Attention, seul votre médecin traitant peut vous adresser à ses proféssionnels 
+                - En se rendant dans un établissement public (hôpital)<br>
+                - En se rendant dans un centre médico-Psychologique
+                <br>
+                Attention, seul votre médecin traitant peut vous adresser à ses professionnels 
                 pour obtenir un remboursement à 100 % par l'assurance maladie, mais le délai 
                 de rendez-vous peut être très long selon les régions.
                 <br>
@@ -105,9 +105,9 @@
             </p>
         </div>
         <div class="sourceInfoSysteme">
-            <a href="https://www.aide-sociale.fr/psychologue-remboursement/">
+            <a traget="_blank" href="https://www.aide-sociale.fr/psychologue-remboursement/">
             source</a><br>
-            <a href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">
+            <a traget="_blank" href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">
             Pour en avoir plus sur le systeme des soins</a>
         </div>
     </main>

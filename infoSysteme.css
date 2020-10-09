@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Raleway', sans-serif;
+}
 /* Photo haut */
 .photoSystemeTop {
     background-image: url('./img/systemeSante.jpg');

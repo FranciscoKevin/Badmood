@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="page_contact.css">
     <link rel="stylesheet" href="footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -35,7 +36,8 @@
                             <input type="email" name="email" id="email" required placeholder="Votre email">
                         </div>
                         <div class="formulaire">
-                            <textarea class="textareastyle" name="message" id="message" cols="50" rows="20" required spellcheck="true" wrap="hard" placeholder=" Votre message"></textarea>
+                            <textarea class="textareastyle" name="message" id="message" cols="50" rows="20" required spellcheck="true" 
+                            wrap="hard" resize=both placeholder=" Votre message"></textarea>
                         </div>
                         <div class="sendButton">
                             <input class="button" type="submit" value="Envoyer">

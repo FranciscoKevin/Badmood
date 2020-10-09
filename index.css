@@ -1,3 +1,8 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
 /* Image Part of Home Page*/
 .imageCard{
     background-image: url('img/img-index.jpg');
@@ -111,11 +116,13 @@
 }    
 a.childrenCard:hover{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    opacity: 1;
 }
 a.adultsCard:hover{
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    opacity: 1;
 }
 .helpCard{
     width: 100%;
@@ -179,19 +186,29 @@ a.adultsCard:hover{
     main{
         width: 100%;
     }
-    
+    .childrenAdults{
+        display: flex;
+        border-radius: 10px;
+        font-size: 45px;
+        margin: 5px;
+        width: 50%;
+    }
+
     a.childrenCard:hover{
         color: white;
-        text-decoration: none
+        text-decoration: none;
+        opacity: 1;
     }
     a.adultsCard:hover{
         color: white;
-        text-decoration: none
+        text-decoration: none;
+        opacity: 1;
     }
     .childrenCard{
         color: white;
         margin: 20px;
         background-color: #36424d ;
+        opacity: 0.7;
         border-radius: 10px;
         font-size: 2.2rem;
         width: 70%;
@@ -200,6 +217,7 @@ a.adultsCard:hover{
         color: white;
         margin: 20px;
         background-color: #36424d ;
+        opacity: 0.7;
         border-radius: 10px;
         font-size: 2.2rem;
         width: 70%;
@@ -236,15 +254,6 @@ a.adultsCard:hover{
         color: white;
         font-size: 2rem;
         animation-fill-mode: forwards;
-    }
-    .childrenAdults{
-        display: flex;
-        justify-content: center;
-        border-radius: 10px;
-        font-size: 45px;
-        opacity: 0.7;
-        margin: 5px;
-        width: 50%;
     }
     .helpCard{
         width: 100%;
@@ -290,7 +299,7 @@ a.adultsCard:hover{
     .methodesCard, .helpCard, .systemCard {
         opacity: 0.9;
         transition: transform .5s ease-in-out,
-                    opacity 0.5s ease-in-out;
+                     0.5s ease-in-out;
     }
     .methodesCard:hover, .helpCard:hover, .systemCard:hover{
         opacity: 1;

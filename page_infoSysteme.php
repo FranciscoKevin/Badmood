@@ -106,8 +106,9 @@
             </p>
         </div>
         <div class="sourceInfoSysteme">
+            <p>Source:</p>
             <a target="_blank" href="https://www.aide-sociale.fr/psychologue-remboursement/">
-            source pour le remboursement</a><br>
+            Pour en savoir plus sur remboursement</a><br>
             <a target="_blank" href="https://solidarites-sante.gouv.fr/systeme-de-sante-et-medico-social/parcours-de-sante-vos-droits/modeles-et-documents/guide-usagers-votre-sante-vos-droits/article/fiche-6-les-soins-psychiatriques">
             Pour en avoir plus sur le systeme des soins</a>
         </div>

@@ -60,14 +60,13 @@ p.footer{
     height: 10px;
 }
 
-p.footer1 span{
-    display: block;
-    margin-top: 4px;
-    padding-left: 5px;
-}
 p.footer1{
-    display: flex;
-    justify-content: center;
+    margin-bottom: 4px;
+}
+
+#num img:hover{
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 .informationsFooter p a{

@@ -1,0 +1,224 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+/* Photo haut */
+.photoSystemeTop {
+    background-image: url('./img/systemeSante.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    width: 100%;
+    height: 910px;
+}
+
+.photoSystemeBot {
+    background-image: url('./img/aventureNouvelle.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    width: 100%;
+    height: 500px;
+}
+
+.titleSysteme {
+    font-size: 5em;
+    line-height: 2em;
+    color: white;
+    width: 100%;
+    padding: 100px 50px 0 0;
+    text-align: right;
+    grid-row: 1;
+}
+
+.mentionPhotoSystemeTop {
+    color: whitesmoke;
+    align-self: end;
+    justify-self: end;
+    grid-row: 2;
+    font-size: 10px;
+}
+
+.mentionPhotoSystemeBot {
+    color: white;
+    font-size: 10px;
+    align-self: end;
+    justify-self: end;
+}
+
+
+/* box contenu */
+.littleBody {
+    display: inline-block;
+    box-shadow: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0em;
+    font-size: large;
+}
+
+.introductionSysteme {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 1em;
+}
+
+.titreRemb {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.psychiaSousTitre {
+    padding-left: 5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.psychiaRemb {
+    margin-bottom: 2em;
+    padding-left: 1em;
+    text-align: justify;
+}
+
+.psychoSousTitre {
+    padding-left: 5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.psychoRemb {
+    text-align: justify;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+.sourceInfoSysteme {
+    margin: 1em;
+    margin-top: 2em;
+    text-align: center;
+}
+
+/* Grid elements */
+.blocMasterGrid{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(50px, auto);
+}
+
+.bloc {
+    margin: 0.3em;
+    padding: 1em;
+    line-height: 1.2em;
+    font-size: large;
+}
+
+/* introduction */
+.elementGrid1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+    text-align: justify;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+/* Les grands axes */
+.elementGrid2 {
+    line-height: 2em;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+}
+
+.elementGrid3 {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+/* particients */
+.elementGrid4 {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: end;
+}
+
+.elementGrid5 {
+    grid-column: 2;
+    grid-row: 3;
+    margin-top: 2em;
+    padding-top: 1em;
+    margin: 1em;
+    margin-bottom: 0em;
+}
+
+/* Format écran */
+@media (max-width: 640px) {
+    .littleBody {
+        width: 100%;
+        margin: 0em;
+    }
+
+    .introductionSysteme {
+        width: 100%;
+        margin: 0em;
+    }
+
+    .diffPro {
+        width: 100%;
+        margin: 0em;
+    }
+
+    .blocMasterGrid {
+        grid-template-columns: 1fr;
+    }
+    
+    .elementGrid2 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 2;
+    }
+
+    .elementGrid3 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 3;
+    }
+
+    .elementGrid4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 4;
+    }
+
+    .elementGrid5 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row: 5;
+    }
+
+    .psychiaRemb {
+        padding: 2em;
+        padding-bottom: 1em;
+    }
+
+    .psychoRemb {
+        padding: 2em;
+        padding-bottom: 1em;
+        margin-bottom: 0em;
+    }
+
+    .titleSysteme {
+        font-size: 3em;
+    }
+}

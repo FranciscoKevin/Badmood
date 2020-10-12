@@ -1,20 +1,24 @@
 footer{
     background-color:  #09080D;
     width: 100%;
-    height: 640px;
+    height: 100%;
     display: flex;
+    padding-bottom: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
 }
 .titleFooter{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 40px;
+    font-size: 30px;
     width: 100%;
     height: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 .advertisement{
@@ -33,11 +37,11 @@ footer{
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 500px;
+    padding-top: 70px;
     justify-content: center;
-    
-
+    text-transform: uppercase;
 }
+
 p.wildCodeSchool{
     display: flex;
     align-items: flex-end;
@@ -47,15 +51,81 @@ p.wildCodeSchool{
 }
 hr.principal{
     width: 90%;
+    margin-top: 10px;
+    border-color: white;
 }
 p.footer{
+    margin: 20px;
+    text-align: start;
     height: 10px;
 }
+
+p.footer1{
+    margin-bottom: 4px;
+}
+
+#num img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.informationsFooter p a{
+    font-size: 14px;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
 .wcsCopyright{
     color: white;
     width: 100%;
-    height: 200px;
+    height: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
+a.footerLink{
+    color: white;
+}
+
+.footerLink:hover{
+  background: #2C3E50;
+  opacity: 0.8;
+  transition: .5s;
+  text-decoration: none;
+}
+
+/*Bouton qui remonte en haut de page et animation pulse*/
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2);
+  100% { transform: scale(1); }
+  }
+}
+
+#scroll_to_top {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    align-self: flex-end;
+    margin-right: 40px;
+    border: solid 2px gray;
+    padding-top: 6px;
+    padding-left: 4px;
+}
+
+#scroll_to_top:hover{
+ animation: pulse 1s infinite;
+  animation-timing-function: linear;   
+}
+
+#scroll_to_top img {
+    width: 36px;
+}
+
+@media (max-width: 996px){
+    .footerLink:hover{
+      background: none;
+    }
+}
+

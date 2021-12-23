@@ -1,4 +1,4 @@
-# Project 1 - BadMood - HTML & CSS*
+# Project 1 - BadMood
 
 ![Wild Code School](https://wildcodeschool.fr/wp-content/uploads/2019/01/logo_pink_176x60.png)
 ## Description
@@ -9,11 +9,19 @@ The theme of the project was to make a static website in HTML and CSS.
 The theme of the site is to provide information, help and support people with mental health problems to health professionals.
 
 projects done over ten days at the start of training to learn the basics of HTML and CSS.
+
+### Langages
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
+</p>
+
 ### Install
 Clone this project: git clone https://github.com/FranciscoKevin/Projet-1-WCS.git
 
 ### Testing
-
+https://franciscokevin.github.io/Badmood/
 ## Authors
 
 Wild Code School trainers team

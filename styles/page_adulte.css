@@ -150,7 +150,7 @@ body{
 .element-5 {
     grid-column-start: 1;
     grid-column-end: 2;
-    background-image: url('img/img-psychologue-2.jpg');
+    background-image: url('../img/img-psychologue-2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -165,7 +165,7 @@ body{
 .element-6 {
     grid-column-start: 2;
     grid-column-end: 3;
-    background-image: url('img/img-psychiatre.jpg');
+    background-image: url('../img/img-psychiatre.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -279,7 +279,7 @@ body{
     .element-5 {
         grid-column-start: 1;
         grid-column-end: 2;
-        background-image: url('img/img-psychologue-2.jpg');
+        background-image: url('../img/img-psychologue-2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -292,7 +292,7 @@ body{
     .element-6 {
         grid-column-start: 1;
         grid-column-end: 2;
-        background-image: url('img/img-psychiatre.jpg');
+        background-image: url('../img/img-psychiatre.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -303,7 +303,7 @@ body{
     }
 
     .imageAdult2 {
-        background-image: url('img/img-adult-2.jpg');
+        background-image: url('../img/img-adult-2.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;

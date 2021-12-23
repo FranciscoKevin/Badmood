@@ -194,7 +194,7 @@ li {
         }
 
         .imageChild2 {
-            background-image: url('img/img-child-2.jpg');
+            background-image: url('../img/img-child-2.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>BadMood - Page renseignements adultes</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="page_adulte.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/page_adulte.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
@@ -15,13 +15,30 @@
     <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
 </head>
 <body>
-<?php include("header.php")?>
+    <!-- NAVIGATION-->
+    <nav id="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <!-- icone menu dans un bouton checkbox -->
+        <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="index.html">BadMood</a></label>
+        <ul class="navi">
+        <li><a class="menu" href="page_adulte.html">Renseignements pour l'adulte</a></li>
+        <li><a class="menu" href="page_enfant.html">Renseignements pour l'enfant</a></li>
+        <li><a class="menu" href="page_infoSysteme.html">Système de santé</a></li>
+        <li><a class="menu" href="page_contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- END NAVIGATION -->
     <main class="mainBox">
-        <div class="imageAdult"> <!-- photo début page -->
+        <!-- photo début page -->
+        <div class="imageAdult">
             <h1 class="titleTrouble">Les troubles chez les adultes</h1>
             <p class="mentionMessage">Image par PDPics de Pixabay</p>
         </div>
-            <section class="blocContainerMentalyCareAdult"> <!-- repèrer "symptôme"-->
+            <!-- repèrer "symptôme"-->
+            <section class="blocContainerMentalyCareAdult"> 
                 <div class="bloc element-0"></div>
                 <div class="bloc element-1">
                 <div class="liste"><p>
@@ -77,8 +94,30 @@
                         <p class="mentionPhotoAdulte">Image par Алина Осипова de Pixabay</p>
                     </div>
             </section>
+            <!-- FOOTER -->
+            <footer>
+                <div class="titleFooter">
+                    <p>BadMood</p>
+                </div>
+                <div class='advertisement'>
+                    <p>Le contenu de cette page est à titre informatif. BadMood.com n'offre pas de conseils médicaux, de diagnostic ou de traitement.</p>
+                </div>
+                <hr class="principal">
+                <div class='informationsFooter'>
+                    <p class="footer1"><a id="num" href="tel:0-800-858-858"><img src="img/num-vert.png" alt="Numéro vert"></a></p>
+                    <p class="footer"><a href="page_contact.html#ancre" class="footerLink">A propos</a></p>
+                    <p class="footer"><a href="page_mentions_legales.html" class="footerLink">Mentions légales</a></p>
+                    <p class="footer"><a href="page_contact.html" class="footerLink">Contact</a></p>
+                </div>
+                        <div id="scroll_to_top">
+                            <a href="#top"><img src="img/fleche.png" alt="Retourner en haut" title="Retourner en haut" /></a>
+                        </div>
+                <div class="wcsCopyright">
+                    <p class="wildCodeSchool">2020 - Développé par la Wild Code School. Tous droits réservés.</p>
+                </div>          
+            </footer>
+            <!-- END FOOTER -->
     </main>
-    <?php include('footer.php');?>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

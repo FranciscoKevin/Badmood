@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang ="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>BadMood</title>
+        <meta name="description" content="BadMood est un site pour renseigner, aider et accompagner les personnes ayant des problèmes de troubles psychiques vers des professionnels de la santé" />
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+        <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
+    </head>
+    <body>
+        <!-- NAVIGATION-->
+        <nav id="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <!-- icone menu dans un bouton checkbox-->
+            <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="index.html">BadMood</a></label>
+            <ul class="navi">
+            <li><a class="menu" href="page_adulte.html">Renseignements pour l'adulte</a></li>
+            <li><a class="menu" href="page_enfant.html">Renseignements pour l'enfant</a></li>
+            <li><a class="menu" href="page_infoSysteme.html">Système de santé</a></li>
+            <li><a class="menu" href="page_contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- END NAVIGATION -->
+        <main>
+        <div class='imageCard'>
+            <div class="textOnImage">
+                <p class="presentation1">
+                    Vous ou un de vos proches se sent stressé, mal dans sa peau, en proie à des troubles du comportement ?<br>
+                    Nous vous proposons des professionnels compétents vers qui vous tourner ainsi que les gestes à adopter.
+                </p>
+                <p class="mentionImg">
+                    @cristian_newman
+                </p>
+            </div>
+        </div>
+            <div class="gridMain">
+                <div class='ytFrameCard'>
+                    <iframe id="ytplayer"
+                            src="https://www.youtube.com/embed/0Yr4hyFSJPk?autoplay=0&mute=1&controls=2&origin=http://example.com">
+                    </iframe>
+                </div>
+                <div class="methodesCard">
+                    <h2 class="h2Title">METHODES</h2>
+                    <p>
+                        Témoignages, articles <br> et professionnels de santé 
+                    </p>
+                    <div class="childrenAdults">
+                        <a class="childrenCard" href="page_enfant.html">
+                            Enfants
+                        </a>
+                        <a class="adultsCard"  href="page_adulte.html">
+                            Adultes
+                        </a>
+                    </div>
+                </div>
+                <div class="helpCard">
+                    <h2 class="h2Title">BESOIN D'AIDE</h2>
+                    <a class="aArticleCard" target=”_blank” href="https://fr.wikihow.com/g%C3%A9rer-une-personne-angoiss%C3%A9e">
+                        Comment prévenir une crise, en cas d'urgence téléphoner au <br>
+                        0 800 858 858 (numéro gratuit)
+                    </a>
+                </div>
+                <div class="systemCard">
+                    <h2 class="h2Title">LE SYSTEME DE SANTE FRANÇAIS</h2>
+                    <a class="aArticleCard" href="page_infoSysteme.html">
+                        Prise en charge, assurance maladie, <br> divers praticiens
+                    </a>
+                </div>
+            </div>
+            <!-- FOOTER-->
+            <footer>
+                <div class="titleFooter">
+                    <p>BadMood</p>
+                </div>
+                <div class='advertisement'>
+                    <p>Le contenu de cette page est à titre informatif. BadMood.com n'offre pas de conseils médicaux, de diagnostic ou de traitement.</p>
+                </div>
+                <hr class="principal">
+                <div class='informationsFooter'>
+                    <p class="footer1"><a id="num" href="tel:0-800-858-858"><img src="img/num-vert.png" alt="Numéro vert"></a></p>
+                    <p class="footer"><a href="page_contact.html#ancre" class="footerLink">A propos</a></p>
+                    <p class="footer"><a href="page_mentions_legales.html" class="footerLink">Mentions légales</a></p>
+                    <p class="footer"><a href="page_contact.html" class="footerLink">Contact</a></p>
+                </div>
+                        <div id="scroll_to_top">
+                            <a href="#top"><img src="img/fleche.png" alt="Retourner en haut" title="Retourner en haut" /></a>
+                        </div>
+                <div class="wcsCopyright">
+                    <p class="wildCodeSchool">2020 - Développé par la Wild Code School. Tous droits réservés.</p>
+                </div>          
+            </footer>
+            <!-- END FOOTER -->         
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

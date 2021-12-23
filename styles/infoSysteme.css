@@ -3,7 +3,7 @@ body{
 }
 /* Photo haut */
 .photoSystemeTop {
-    background-image: url('./img/systemeSante.jpg');
+    background-image: url('../img/systemeSante.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -13,7 +13,7 @@ body{
 }
 
 .photoSystemeBot {
-    background-image: url('./img/aventureNouvelle.jpg');
+    background-image: url('../img/aventureNouvelle.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

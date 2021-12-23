@@ -3,10 +3,10 @@
 <head>
 	<meta charset="UTF-8">
     <title>BadMood - Le système de santé en France</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="infoSysteme.css">
+    <link rel="stylesheet" href="styles/infoSysteme.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     
     <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
@@ -16,7 +16,23 @@
 </head>
 
 <body>
-    <?php include("header.php")?>
+    <!-- NAVIGATION -->
+    <nav id="nav-bar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+        <!-- icone menu dans un bouton checkbox-->
+        <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><a href="index.html">BadMood</a></label>
+        <ul class="navi">
+        <li><a class="menu" href="page_adulte.html">Renseignements pour l'adulte</a></li>
+        <li><a class="menu" href="page_enfant.html">Renseignements pour l'enfant</a></li>
+        <li><a class="menu" href="page_infoSysteme.html">Système de santé</a></li>
+        <li><a class="menu" href="page_contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- END NAVIGATION -->
+
     <section class="photoSystemeTop">
         <h1 class="titleSysteme">Le système de santé français</h1>
         <p class="mentionPhotoSystemeTop">Image par Bethany Drouin de Pixabay</p>
@@ -65,6 +81,7 @@
                 </div>
             </div>
         </div>
+        <hr>
         <div class="titreRemb">
             <h2>Le système de remboursement</h2>
         </div>
@@ -116,7 +133,30 @@
     <section class="photoSystemeBot">
         <p class="mentionPhotoSystemeBot">Image par silviarita de Pixabay</p>
     </section>
-    <?php include("footer.php")?> 
-    <script src="script.js"></script>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="titleFooter">
+            <p>BadMood</p>
+        </div>
+        <div class='advertisement'>
+            <p>Le contenu de cette page est à titre informatif. BadMood.com n'offre pas de conseils médicaux, de diagnostic ou de traitement.</p>
+        </div>
+        <hr class="principal">
+        <div class='informationsFooter'>
+            <p class="footer1"><a id="num" href="tel:0-800-858-858"><img src="img/num-vert.png" alt="Numéro vert"></a></p>
+            <p class="footer"><a href="page_contact.html#ancre" class="footerLink">A propos</a></p>
+            <p class="footer"><a href="page_mentions_legales.html" class="footerLink">Mentions légales</a></p>
+            <p class="footer"><a href="page_contact.html" class="footerLink">Contact</a></p>
+        </div>
+                <div id="scroll_to_top">
+                    <a href="#top"><img src="img/fleche.png" alt="Retourner en haut" title="Retourner en haut" /></a>
+                </div>
+        <div class="wcsCopyright">
+            <p class="wildCodeSchool">2020 - Développé par la Wild Code School. Tous droits réservés.</p>
+        </div>          
+    </footer>
+    <!-- END FOOTER --> 
+    <script src="js/script.js"></script>
 </body>
 </html>

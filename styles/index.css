@@ -5,7 +5,7 @@ body{
 
 /* Image Part of Home Page*/
 .imageCard{
-    background-image: url('img/img-index.jpg');
+    background-image: url('../img/img-index.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-color: rgb(0, 0, 0);
@@ -76,7 +76,7 @@ body{
     height: 100%;
 }
 .methodesCard{
-    background: url('img/youngOld.jpg') no-repeat center center;
+    background: url('../img/youngOld.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
     display: flex;
@@ -128,7 +128,7 @@ a.adultsCard:hover{
     width: 100%;
     cursor: pointer;
     overflow: hidden;
-    background: url('img/marco-bianchetti.jpg')no-repeat center center;
+    background: url('../img/marco-bianchetti.jpg')no-repeat center center;
     background-size: cover;
     font-size: 2rem;
     display: flex;
@@ -139,7 +139,7 @@ a.adultsCard:hover{
 }
 .systemCard{
     width: 100%;
-    background: url('img/frenchSystem.jpg')no-repeat center center;
+    background: url('../img/frenchSystem.jpg')no-repeat center center;
     background-size: cover;   
     cursor: pointer;
     font-size: 2rem;
@@ -161,7 +161,7 @@ a.adultsCard:hover{
 @media only screen and (min-width: 640px){
 /* Under the header */
     .imageCard{
-        background-image: url('img/img-index.jpg');
+        background-image: url('../img/img-index.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-color: rgb(0, 0, 0);
@@ -242,7 +242,7 @@ a.adultsCard:hover{
         height: 100%;
     }
     .methodesCard{
-        background: url('img/youngOld.jpg') no-repeat center center;
+        background: url('../img/youngOld.jpg') no-repeat center center;
         background-size: cover;
         width: 100%;
         display: flex;
@@ -259,7 +259,7 @@ a.adultsCard:hover{
         width: 100%;
         cursor: pointer;
         overflow: hidden;
-        background: url('img/marco-bianchetti.jpg')no-repeat center center;
+        background: url('../img/marco-bianchetti.jpg')no-repeat center center;
         background-size: cover;
         font-size: 2rem;
         display: flex;
@@ -271,7 +271,7 @@ a.adultsCard:hover{
     
     .systemCard{
         width: 100%;
-        background: url('img/frenchSystem.jpg')no-repeat center center;
+        background: url('../img/frenchSystem.jpg')no-repeat center center;
         background-size: cover;   
         cursor: pointer;
         font-size: 2rem;

@@ -4,10 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>BadMood - Mentions légales</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="header.css">
-        <link rel="stylesheet" href="footer.css">
-        <link rel="stylesheet" href="mentions_legales.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/mentions_legales.css">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <!-- Bibilotheque de logo svg par exemple pour le bouton menu sandwich-->
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -15,7 +15,23 @@
         <meta name="description" content="Useful site to find informations if you need help about mental disorders.">
     </head>
     <body>
-        <?php include("header.php")?>
+        <!-- NAVIGATION -->
+        <nav id="nav-bar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <!-- icone menu dans un bouton checkbox-->
+            <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><a href="index.html">BadMood</a></label>
+            <ul class="navi">
+            <li><a class="menu" href="page_adulte.html">Renseignements pour l'adulte</a></li>
+            <li><a class="menu" href="page_enfant.html">Renseignements pour l'enfant</a></li>
+            <li><a class="menu" href="page_infoSysteme.html">Système de santé</a></li>
+            <li><a class="menu" href="page_contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- END NAVIGATION -->
+
         <main class="main">
             <div>
                 <h2>Identité</h2>
@@ -61,9 +77,31 @@
                 <h2>Crédits</h2>
                 <p>Les crédits photos sont sur chaque photo ou absents lorsque les images sont libres de droits.</p>
                 <p><em><a href="http://webexpress.fr" data-wpel-link="internal">Mentions légales fournies par WebExpress – Version 1.5</a> – Utilisation libre sous <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/" data-wpel-link="external" target="_new" rel="external noopener noreferrer" class="ext-link wpel-icon-right">Licence Creative Commons CC BY-NC-ND 3.0 FR / creativecommons.org<span class="wpel-icon wpel-image wpel-icon-4"></span></a>.</em></p>
-            </div>
+            </div>    
         </main>
-        <?php include('footer.php');?>
-        <script src="script.js"></script>
+        <!-- FOOTER -->
+        <footer>
+            <div class="titleFooter">
+                <p>BadMood</p>
+            </div>
+            <div class='advertisement'>
+                <p>Le contenu de cette page est à titre informatif. BadMood.com n'offre pas de conseils médicaux, de diagnostic ou de traitement.</p>
+            </div>
+            <hr class="principal">
+            <div class='informationsFooter'>
+                <p class="footer1"><a id="num" href="tel:0-800-858-858"><img src="img/num-vert.png" alt="Numéro vert"></a></p>
+                <p class="footer"><a href="page_contact.html#ancre" class="footerLink">A propos</a></p>
+                <p class="footer"><a href="page_mentions_legales.html" class="footerLink">Mentions légales</a></p>
+                <p class="footer"><a href="page_contact.html" class="footerLink">Contact</a></p>
+            </div>
+                    <div id="scroll_to_top">
+                        <a href="#top"><img src="img/fleche.png" alt="Retourner en haut" title="Retourner en haut" /></a>
+                    </div>
+            <div class="wcsCopyright">
+                <p class="wildCodeSchool">2020 - Développé par la Wild Code School. Tous droits réservés.</p>
+            </div>          
+        </footer>
+        <!-- END FOOTER -->
+        <script src="js/script.js"></script>
     </body>
 </html>
